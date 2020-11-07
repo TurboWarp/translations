@@ -113,7 +113,7 @@ tw.featuredProjectsStudio:
 tw.framerateIndicator:
   defaultMessage: "{framerate} FPS"
   description: Label indicating project framerate
-  message: '{framerate} FPS'
+  message: "{framerate} FPS"
 tw.alerts.warning:
   defaultMessage: Turn on Warp Timer or disable compiler (in Advanced menu) while creating projects to avoid potential data loss. Also note that scripts may need to be restarted for changes to apply.
   description: Message warning user of potential data loss.
@@ -129,11 +129,11 @@ tw.home.description:
 tw.footer.disclaimer:
   defaultMessage: Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
-  message: 'Projecten op scratch zijn gelicentieerd door Creative Commons Attribution-ShareAlike 2.0 licentie. Turbowarp heeft niks te maken met scratch, het scratch team of de scratch Foundation.'
+  message: Projecten op scratch zijn gelicentieerd door Creative Commons Attribution-ShareAlike 2.0 licentie. Turbowarp heeft niks te maken met scratch, het scratch team of de scratch Foundation.
 tw.footer.host:
   defaultMessage: Hosting for TurboWarp is provided by {fosshost}.
   description: Host credit
-  message: 'Hosten voor turbowarp wordt gedaan door {fosshost}'
+  message: Hosten voor turbowarp wordt gedaan door {fosshost}
 tw.footer.host.fosshost:
   defaultMessage: fosshost.org
   description: Link to fosshost.org
