@@ -20,6 +20,6 @@ jobs:
     - name: Install dependencies
       run: npm ci
     - name: Validator test suite
-      run: node scripts/validate-test.js
+      run: node scripts/validate.test.js
     - name: Parse translations
       run: node scripts/build-for-scratch-gui.js
