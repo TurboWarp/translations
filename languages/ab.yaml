@@ -1,5 +1,5 @@
 tw.gui.crashMessage.description:
-  defaultMessage: 'We are so sorry, but it looks like TurboWarp has crashed. Please refresh your page to try again.'
+  defaultMessage: We are so sorry, but it looks like TurboWarp has crashed. Please refresh your page to try again.
   description: Message to inform the user that page has crashed.
   message: null
 tw.loadingMessage:
@@ -111,7 +111,7 @@ tw.featuredProjectsStudio:
   description: Link to turbowarp featured projects studio
   message: null
 tw.framerateIndicator:
-  defaultMessage: '{framerate} FPS'
+  defaultMessage: "{framerate} FPS"
   description: Label indicating project framerate
   message: null
 tw.alerts.warning:
@@ -127,11 +127,11 @@ tw.home.description:
   description: Description of TurboWarp
   message: null
 tw.footer.disclaimer:
-  defaultMessage: 'Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.'
+  defaultMessage: Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
   message: null
 tw.footer.host:
-  defaultMessage: 'Hosting for TurboWarp is provided by {fosshost}.'
+  defaultMessage: Hosting for TurboWarp is provided by {fosshost}.
   description: Host credit
   message: null
 tw.footer.host.fosshost:

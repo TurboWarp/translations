@@ -1,5 +1,4 @@
 const fs = require('fs');
-const pathUtil = require('path');
 const {
   LANGUAGES,
   LANGUAGES_MD

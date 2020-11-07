@@ -1,4 +1,4 @@
-const yaml = require('js-yaml');
+const YAML = require('./yaml');
 const {validateLanguage, validateMessage} = require('./validate-lib');
 
 const m = {
@@ -34,10 +34,10 @@ const expectInvalidMessage = (key, message) => {
   }
 }
 
-expectValidLanguage(yaml.safeDump({
+expectValidLanguage(YAML.stringify({
   'tw.123': m
 }));
-expectInvalidLanguage(yaml.safeDump({
+expectInvalidLanguage(YAML.stringify({
   'tw.123': null
 }));
 expectInvalidLanguage('null');

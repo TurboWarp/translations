@@ -4,7 +4,8 @@
   "description": "Translations for TurboWarp.org",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node scripts/validate.test.js",
+    "build": "node scripts/build-for-scratch-gui.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,6 @@
   "homepage": "https://github.com/TurboWarp/translations#readme",
   "private": true,
   "dependencies": {
-    "js-yaml": "^3.14.0"
+    "yaml": "^1.10.0"
   }
 }

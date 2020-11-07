@@ -19,7 +19,7 @@ jobs:
         node-version: 10.x
     - name: Install dependencies
       run: npm ci
-    - name: Validator test suite
-      run: node scripts/validate.test.js
+    - name: Internals tests
+      run: npm test
     - name: Parse translations
-      run: node scripts/build-for-scratch-gui.js
+      run: npm run build

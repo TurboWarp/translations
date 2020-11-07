@@ -1,11 +1,11 @@
-const yaml = require('js-yaml');
+const YAML = require('./yaml');
 
 const isObject = (val) => typeof val === 'object' && val !== null && !Array.isArray(val);
 
 const validateLanguage = (content, errorCallback) => {
   let parsedContent;
   try {
-    parsedContent = yaml.safeLoad(content);
+    parsedContent = YAML.parse(content);
   } catch (e) {
     errorCallback(new Error(`Invalid YAML: ${e.message}`));
     return;

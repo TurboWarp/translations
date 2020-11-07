@@ -1,7 +1,7 @@
 const fs = require('fs');
 const pathUtil = require('path');
-const yaml = require('js-yaml');
 
+const YAML = require('./yaml');
 const {
   LANGUAGES_DIR,
   IN_DIR,
@@ -66,16 +66,14 @@ const readLanguageFile = (path) => {
     return {};
   }
   const content = fs.readFileSync(path, { encoding: 'utf8' });
-  return yaml.safeLoad(content);
+  return YAML.parse(content);
 };
 
 const processLanguage = (lang, messages) => {
   const languageFilePath = pathUtil.join(LANGUAGES_DIR, `${lang}.yaml`);
   const languageFile = readLanguageFile(languageFilePath);
   const translations = mergeTranslations(languageFile, messages);
-  fs.writeFileSync(languageFilePath, yaml.dump(translations, {
-    lineWidth: 1000000
-  }));
+  fs.writeFileSync(languageFilePath, YAML.stringify(translations));
 };
 
 const messageFiles = getAllFiles(IN_DIR);

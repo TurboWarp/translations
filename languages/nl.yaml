@@ -1,5 +1,5 @@
 tw.gui.crashMessage.description:
-  defaultMessage: 'We are so sorry, but it looks like TurboWarp has crashed. Please refresh your page to try again.'
+  defaultMessage: We are so sorry, but it looks like TurboWarp has crashed. Please refresh your page to try again.
   description: Message to inform the user that page has crashed.
   message: Ons excuses maar het lijkt erop dat turbowarp gecrasht is. Herlaad alstublieft uw pagina om opnieuw te proberen
 tw.loadingMessage:
@@ -111,7 +111,7 @@ tw.featuredProjectsStudio:
   description: Link to turbowarp featured projects studio
   message: Bekijk studio op scratch
 tw.framerateIndicator:
-  defaultMessage: '{framerate} FPS'
+  defaultMessage: "{framerate} FPS"
   description: Label indicating project framerate
   message: '{framerate} FPS'
 tw.alerts.warning:
@@ -127,11 +127,11 @@ tw.home.description:
   description: Description of TurboWarp
   message: Turbowarp is een scratch mod dat projecten compileert naar javascript om ze heel snel te laten werken. Probeer het door hierboven een project ID of URL in te voeren of hieronder een uitgelicht project te kiezen.
 tw.footer.disclaimer:
-  defaultMessage: 'Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.'
+  defaultMessage: Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
   message: 'Projecten op scratch zijn gelicentieerd door Creative Commons Attribution-ShareAlike 2.0 licentie. Turbowarp heeft niks te maken met scratch, het scratch team of de scratch Foundation.'
 tw.footer.host:
-  defaultMessage: 'Hosting for TurboWarp is provided by {fosshost}.'
+  defaultMessage: Hosting for TurboWarp is provided by {fosshost}.
   description: Host credit
   message: 'Hosten voor turbowarp wordt gedaan door {fosshost}'
 tw.footer.host.fosshost:
