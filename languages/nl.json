@@ -2,191 +2,191 @@
     "tw.gui.crashMessage.description": {
         "defaultMessage": "We are so sorry, but it looks like TurboWarp has crashed. Please refresh your page to try again.",
         "description": "Message to inform the user that page has crashed.",
-        "message": "Ons excuses maar het lijkt erop dat turbowarp gecrasht is. Herlaad alstublieft uw pagina om opnieuw te proberen";
+        "message": "Ons excuses maar het lijkt erop dat turbowarp gecrasht is. Herlaad alstublieft uw pagina om opnieuw te proberen"
     },
     "tw.loadingMessage": {
         "defaultMessage": "Loading project …",
         "description": "Default loading message",
-        "message": "Project laden ...";
+        "message": "Project laden ..."
     },
     "tw.menuBar.60off": {
         "defaultMessage": "Turn off 60 FPS mode",
         "description": "Menu bar item for turning off 60 FPS mode",
-        "message": "Zet 60 fps uit";
+        "message": "Zet 60 fps uit"
     },
     "tw.menuBar.60on": {
         "defaultMessage": "Turn on 60 FPS mode",
         "description": "Menu bar item for turning on 60 FPS mode",
-        "message": "Zet 60 fps aan";
+        "message": "Zet 60 fps aan"
     },
     "tw.menuBar.changeUsername": {
         "defaultMessage": "Change Username",
         "description": "Menu bar item for changing the username",
-        "message": "Gebruikersnaam veranderen";
+        "message": "Gebruikersnaam veranderen"
     },
     "tw.menuBar.cloudOff": {
         "defaultMessage": "Disable Cloud Variables",
         "description": "Menu bar item for disabling cloud variables",
-        "message": "Schakel cloud variabelen uit";
+        "message": "Schakel cloud variabelen uit"
     },
     "tw.menuBar.cloudOn": {
         "defaultMessage": "Enable Cloud Variables",
         "description": "Menu bar item for enabling cloud variables",
-        "message": "Schakel cloud variabelen aan";
+        "message": "Schakel cloud variabelen aan"
     },
     "tw.menuBar.cloudUnavailable": {
         "defaultMessage": "Cloud Variables are not Available",
         "description": "Menu bar item for when cloud variables are not available",
-        "message": "Cloud variabelen zijn niet beschikbaar";
+        "message": "Cloud variabelen zijn niet beschikbaar"
     },
     "tw.menuBar.advanced": {
         "defaultMessage": "Advanced",
         "description": "Text for advanced settings dropdown menu",
-        "message": "Geavanceerd";
+        "message": "Geavanceerd"
     },
     "tw.menuBar.hqpOff": {
         "defaultMessage": "Turn off High Quality Pen",
         "description": "Menu bar item for turning off high quality pen",
-        "message": "Zet hoge kwaliteit pen uit";
+        "message": "Zet hoge kwaliteit pen uit"
     },
     "tw.menuBar.hqpOn": {
         "defaultMessage": "Turn on High Quality Pen",
         "description": "Menu bar item for turning on high quality pen",
-        "message": "Zet hoge kwaliteit pen aan";
+        "message": "Zet hoge kwaliteit pen aan"
     },
     "tw.menuBar.compilerOff": {
         "defaultMessage": "Disable Compiler",
         "description": "Menu bar item for disabling the compiler",
-        "message": "Shakel compiler uit";
+        "message": "Shakel compiler uit"
     },
     "tw.menuBar.compilerOn": {
         "defaultMessage": "Enable Compiler",
         "description": "Menu bar item for enabling the compiler",
-        "message": "Shakel compiler aan";
+        "message": "Shakel compiler aan"
     },
     "tw.menuBar.warpTimerOff": {
         "defaultMessage": "Turn off Warp Timer (Stuck Checking)",
         "description": "Menu bar item for turning off Warp Timer",
-        "message": "Zet warp uit (crash voorkomen)";
+        "message": "Zet warp uit (crash voorkomen)"
     },
     "tw.menuBar.warpTimerOn": {
         "defaultMessage": "Turn on Warp Timer (Stuck Checking)",
         "description": "Menu bar item for turning on Warp Timer",
-        "message": "Zet warp timer aan (crash voorkomen)";
+        "message": "Zet warp timer aan (crash voorkomen)"
     },
     "tw.menuBar.help": {
         "defaultMessage": "Help",
         "description": "Text for TurboWarp Help dropdown menu",
-        "message": "Help";
+        "message": "Help"
     },
     "tw.menuBar.code": {
         "defaultMessage": "Source Code",
         "description": "Text for source code link in the Help menu",
-        "message": "Broncode";
+        "message": "Broncode"
     },
     "tw.menuBar.feedback": {
         "defaultMessage": "Feedback & Bugs",
         "description": "Text for feedback link in the Help menu",
-        "message": "Feedback & bugs";
+        "message": "Feedback & bugs"
     },
     "tw.menuBar.privacy": {
         "defaultMessage": "Privacy",
         "description": "Text for privacy policy link in the Help menu",
-        "message": "Privacy";
+        "message": "Privacy"
     },
     "tw.menuBar.embed": {
         "defaultMessage": "Embedding",
         "description": "Text for embedding link in the Help menu",
-        "message": "Inbedding";
+        "message": "Inbedding"
     },
     "tw.menuBar.parameters": {
         "defaultMessage": "URL Parameters",
         "description": "Text for url parameters link in the Help menu",
-        "message": "URL parameters";
+        "message": "URL parameters"
     },
     "tw.giveFeedback": {
         "defaultMessage": "Give Feedback",
         "description": "Text for the giving feedback button",
-        "message": "Geef feedback";
+        "message": "Geef feedback"
     },
     "tw.unsavedChanges": {
         "defaultMessage": "Unsaved Changes",
         "description": "Title bar link indicating unsaved changes",
-        "message": "Niet opgeslagen wijzigingen";
+        "message": "Niet opgeslagen wijzigingen"
     },
     "tw.menuBar.seeInside": {
         "defaultMessage": "See Inside",
         "description": "Label for see inside button",
-        "message": "Bekijk van binnen";
+        "message": "Bekijk van binnen"
     },
     "tw.home.instructions": {
         "defaultMessage": "Instructions",
         "description": "Header for instructions section of description",
-        "message": "Instructies";
+        "message": "Instructies"
     },
     "tw.home.credit": {
         "defaultMessage": "Notes and Credits",
         "description": "Header for notes and credits section of description",
-        "message": "Opmerkingen en credits";
+        "message": "Opmerkingen en credits"
     },
     "tw.viewFeaturedProjects": {
         "defaultMessage": "Click to view featured projects.",
         "description": "Text to view featured projects",
-        "message": "klik om uitgelichte projecten te zien";
+        "message": "klik om uitgelichte projecten te zien"
     },
     "tw.featuredProjectsStudio": {
         "defaultMessage": "View studio on Scratch.",
         "description": "Link to turbowarp featured projects studio",
-        "message": "Bekijk studio op scratch";
+        "message": "Bekijk studio op scratch"
     },
     "tw.framerateIndicator": {
         "defaultMessage": "{framerate} FPS",
         "description": "Label indicating project framerate",
-        "message": "{framerate} FPS";
+        "message": "{framerate} FPS"
     },
     "tw.alerts.warning": {
         "defaultMessage": "Turn on Warp Timer or disable compiler (in Advanced menu) while creating projects to avoid potential data loss. Also note that scripts may need to be restarted for changes to apply.",
         "description": "Message warning user of potential data loss.",
-        "message": "Zet warp timer aan of schakel de compiler uit (in gavanceerd menu) terwijl je aan projecten werkt om mogelijk gegevensverlies te voorkomen. Houd er rekening mee dat je mogelijk scripts opnieuw moet starten om wijzigingen toe te passen.";
+        "message": "Zet warp timer aan of schakel de compiler uit (in gavanceerd menu) terwijl je aan projecten werkt om mogelijk gegevensverlies te voorkomen. Houd er rekening mee dat je mogelijk scripts opnieuw moet starten om wijzigingen toe te passen."
     },
     "tw.gui.defaultProjectTitle": {
         "defaultMessage": "Project",
         "description": "Default title for project",
-        "message": "Project";
+        "message": "Project"
     },
     "tw.home.description": {
         "defaultMessage": "TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.",
         "description": "Description of TurboWarp",
-        "message": "Turbowarp is een scratch mod dat projecten compileert naar javascript om ze heel snel te laten werken. Probeer het door hierboven een project ID of URL in te voeren of hieronder een uitgelicht project te kiezen.";
+        "message": "Turbowarp is een scratch mod dat projecten compileert naar javascript om ze heel snel te laten werken. Probeer het door hierboven een project ID of URL in te voeren of hieronder een uitgelicht project te kiezen."
     },
     "tw.footer.disclaimer": {
         "defaultMessage": "Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.",
         "description": "Disclaimer that TurboWarp is not connected to Scratch and licensing information",
-        "message": "Projecten op scratch zijn gelicentieerd door Creative Commons Attribution-ShareAlike 2.0 licentie. Turbowarp heeft niks te maken met scratch, het scratch team of de scratch Foundation.";
+        "message": "Projecten op scratch zijn gelicentieerd door Creative Commons Attribution-ShareAlike 2.0 licentie. Turbowarp heeft niks te maken met scratch, het scratch team of de scratch Foundation."
     },
     "tw.footer.host": {
         "defaultMessage": "Hosting for TurboWarp is provided by {fosshost}.",
         "description": "Host credit",
-        "message": "Hosten voor turbowarp wordt gedaan door {fosshost}";
+        "message": "Hosten voor turbowarp wordt gedaan door {fosshost}"
     },
     "tw.footer.host.fosshost": {
         "defaultMessage": "fosshost.org",
         "description": "Link to fosshost.org",
-        "message": "fosshost.org";
+        "message": "fosshost.org"
     },
     "tw.footer.source": {
         "defaultMessage": "Source Code",
         "description": "Link to footer to source code",
-        "message": "Broncode";
+        "message": "Broncode"
     },
     "tw.footer.feedback": {
         "defaultMessage": "Feedback & Bugs",
         "description": "Link in footer to give feedback",
-        "message": "Feedback & bugs";
+        "message": "Feedback & bugs"
     },
     "tw.footer.privacy": {
         "defaultMessage": "Privacy",
         "description": "Link in footer to privacy policy",
-        "message": "Privacy";
+        "message": "Privacy"
     }
 }
