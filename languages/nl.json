@@ -177,7 +177,7 @@
     "tw.footer.source": {
         "defaultMessage": "Source Code",
         "description": "Link to footer to source code",
-        "message": "Broncode"
+        "message": "Broncode";
     },
     "tw.footer.feedback": {
         "defaultMessage": "Feedback & Bugs",
