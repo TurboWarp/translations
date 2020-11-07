@@ -19,7 +19,7 @@ const errorCallback = (error) => {
 
 for (const lang of Object.keys(LANGUAGES)) {
   console.log(`Validating ${lang}`);
-  const langFile = pathUtil.join(LANGUAGES_DIR, `${lang}.json`);
+  const langFile = pathUtil.join(LANGUAGES_DIR, `${lang}.yaml`);
   let content;
   try {
     content = fs.readFileSync(langFile, { encoding: 'utf8' });

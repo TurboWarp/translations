@@ -1,0 +1,23 @@
+{
+  "name": "translations",
+  "version": "1.0.0",
+  "description": "Translations for TurboWarp.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TurboWarp/translations.git"
+  },
+  "author": "Thomas Weber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TurboWarp/translations/issues"
+  },
+  "homepage": "https://github.com/TurboWarp/translations#readme",
+  "private": true,
+  "dependencies": {
+    "js-yaml": "^3.14.0"
+  }
+}

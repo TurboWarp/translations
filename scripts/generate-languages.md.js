@@ -12,6 +12,6 @@ fs.writeFileSync(
     '| Language | File |',
     '| -: | :- |',
     ...Array.from(Object.entries(LANGUAGES))
-      .map(([code, {name}]) => `| ${name} | ${code}.json |`)
+      .map(([code, {name}]) => `| ${name} | ${code}.yaml |`)
   ].join('\n')
 );

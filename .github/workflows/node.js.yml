@@ -17,6 +17,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 10.x
+    - name: Install dependencies
+      run: npm ci
     - name: Validator test suite
       run: node scripts/validate-test.js
     - name: Parse translations
