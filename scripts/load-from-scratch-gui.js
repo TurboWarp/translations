@@ -42,11 +42,11 @@ const mergeTranslations = (existing, messages) => {
     const value = result[key];
     const existingValue = existing[key];
     if (existingValue) {
-      // If the default message changed, do not copy.
-      if (existingValue.defaultMessage === value.defaultMessage) {
+      // If the english version changed, do not copy.
+      if (existingValue.englishMessage === value.defaultMessage) {
         value.message = existingValue.message;
       } else {
-        console.warn(`Not copying translation: default changed: ${key}`);
+        value.message = null;
       }
     } else {
       value.message = null;
@@ -66,7 +66,9 @@ const readLanguageFile = (path) => {
     return {};
   }
   const content = fs.readFileSync(path, { encoding: 'utf8' });
-  return YAML.parse(content);
+  return YAML.parse(content, {
+    prettyErrors: true
+  });
 };
 
 const processLanguage = (lang, messages) => {
@@ -91,7 +93,7 @@ for (const file of messageFiles) {
   for (const message of processed) {
     const {id, defaultMessage, description} = message;
     messages[id] = {
-      defaultMessage,
+      englishMessage: defaultMessage,
       description
     };
   }

@@ -13,14 +13,16 @@ require('./validate');
 const readLanguage = (lang) => {
   const languageFile = pathUtil.join(LANGUAGES_DIR, `${lang}.yaml`);
   const content = fs.readFileSync(languageFile, { encoding: 'utf8' });
-  const parsedMessages = YAML.parse(content);
+  const parsedMessages = YAML.parse(content, {
+    prettyErrors: true
+  });
   const result = {};
   for (const key of Object.keys(parsedMessages)) {
     const value = parsedMessages[key];
     const message = value.message;
-    const defaultMessage = value.defaultMessage;
+    const englishMessage = value.englishMessage;
     // Do not write missing messages, or messages that are identical to their English translation.
-    if (message && message !== defaultMessage) {
+    if (message && message !== englishMessage) {
       result[key] = message;
     }
   }

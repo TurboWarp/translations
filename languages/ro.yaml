@@ -1,152 +1,152 @@
 tw.gui.crashMessage.description:
-  defaultMessage: We are so sorry, but it looks like TurboWarp has crashed. Please refresh your page to try again.
+  englishMessage: We are so sorry, but it looks like TurboWarp has crashed. Please refresh your page to try again.
   description: Message to inform the user that page has crashed.
   message: null
 tw.loadingMessage:
-  defaultMessage: Loading project …
+  englishMessage: Loading project …
   description: Default loading message
   message: null
 tw.menuBar.60off:
-  defaultMessage: Turn off 60 FPS mode
+  englishMessage: Turn off 60 FPS mode
   description: Menu bar item for turning off 60 FPS mode
   message: null
 tw.menuBar.60on:
-  defaultMessage: Turn on 60 FPS mode
+  englishMessage: Turn on 60 FPS mode
   description: Menu bar item for turning on 60 FPS mode
   message: null
 tw.menuBar.changeUsername:
-  defaultMessage: Change Username
+  englishMessage: Change Username
   description: Menu bar item for changing the username
   message: null
 tw.menuBar.cloudOff:
-  defaultMessage: Disable Cloud Variables
+  englishMessage: Disable Cloud Variables
   description: Menu bar item for disabling cloud variables
   message: null
 tw.menuBar.cloudOn:
-  defaultMessage: Enable Cloud Variables
+  englishMessage: Enable Cloud Variables
   description: Menu bar item for enabling cloud variables
   message: null
 tw.menuBar.cloudUnavailable:
-  defaultMessage: Cloud Variables are not Available
+  englishMessage: Cloud Variables are not Available
   description: Menu bar item for when cloud variables are not available
   message: null
 tw.menuBar.advanced:
-  defaultMessage: Advanced
+  englishMessage: Advanced
   description: Text for advanced settings dropdown menu
   message: null
 tw.menuBar.hqpOff:
-  defaultMessage: Turn off High Quality Pen
+  englishMessage: Turn off High Quality Pen
   description: Menu bar item for turning off high quality pen
   message: null
 tw.menuBar.hqpOn:
-  defaultMessage: Turn on High Quality Pen
+  englishMessage: Turn on High Quality Pen
   description: Menu bar item for turning on high quality pen
   message: null
 tw.menuBar.compilerOff:
-  defaultMessage: Disable Compiler
+  englishMessage: Disable Compiler
   description: Menu bar item for disabling the compiler
   message: null
 tw.menuBar.compilerOn:
-  defaultMessage: Enable Compiler
+  englishMessage: Enable Compiler
   description: Menu bar item for enabling the compiler
   message: null
 tw.menuBar.warpTimerOff:
-  defaultMessage: Turn off Warp Timer (Stuck Checking)
+  englishMessage: Turn off Warp Timer (Stuck Checking)
   description: Menu bar item for turning off Warp Timer
   message: null
 tw.menuBar.warpTimerOn:
-  defaultMessage: Turn on Warp Timer (Stuck Checking)
+  englishMessage: Turn on Warp Timer (Stuck Checking)
   description: Menu bar item for turning on Warp Timer
   message: null
 tw.menuBar.help:
-  defaultMessage: Help
+  englishMessage: Help
   description: Text for TurboWarp Help dropdown menu
   message: null
 tw.menuBar.code:
-  defaultMessage: Source Code
+  englishMessage: Source Code
   description: Text for source code link in the Help menu
   message: null
 tw.menuBar.feedback:
-  defaultMessage: Feedback & Bugs
+  englishMessage: Feedback & Bugs
   description: Text for feedback link in the Help menu
   message: null
 tw.menuBar.privacy:
-  defaultMessage: Privacy
+  englishMessage: Privacy
   description: Text for privacy policy link in the Help menu
   message: null
 tw.menuBar.embed:
-  defaultMessage: Embedding
+  englishMessage: Embedding
   description: Text for embedding link in the Help menu
   message: null
 tw.menuBar.parameters:
-  defaultMessage: URL Parameters
+  englishMessage: URL Parameters
   description: Text for url parameters link in the Help menu
   message: null
 tw.giveFeedback:
-  defaultMessage: Give Feedback
+  englishMessage: Give Feedback
   description: Text for the giving feedback button
   message: null
 tw.unsavedChanges:
-  defaultMessage: Unsaved Changes
+  englishMessage: Unsaved Changes
   description: Title bar link indicating unsaved changes
   message: null
 tw.menuBar.seeInside:
-  defaultMessage: See Inside
+  englishMessage: See Inside
   description: Label for see inside button
   message: null
 tw.home.instructions:
-  defaultMessage: Instructions
+  englishMessage: Instructions
   description: Header for instructions section of description
   message: null
 tw.home.credit:
-  defaultMessage: Notes and Credits
+  englishMessage: Notes and Credits
   description: Header for notes and credits section of description
   message: null
 tw.viewFeaturedProjects:
-  defaultMessage: Click to view featured projects.
+  englishMessage: Click to view featured projects.
   description: Text to view featured projects
   message: null
 tw.featuredProjectsStudio:
-  defaultMessage: View studio on Scratch.
+  englishMessage: View studio on Scratch.
   description: Link to turbowarp featured projects studio
   message: null
 tw.framerateIndicator:
-  defaultMessage: "{framerate} FPS"
+  englishMessage: "{framerate} FPS"
   description: Label indicating project framerate
   message: null
 tw.alerts.warning:
-  defaultMessage: Turn on Warp Timer or disable compiler (in Advanced menu) while creating projects to avoid potential data loss. Also note that scripts may need to be restarted for changes to apply.
+  englishMessage: Turn on Warp Timer or disable compiler (in Advanced menu) while creating projects to avoid potential data loss. Also note that scripts may need to be restarted for changes to apply.
   description: Message warning user of potential data loss.
   message: null
 tw.gui.defaultProjectTitle:
-  defaultMessage: Project
+  englishMessage: Project
   description: Default title for project
   message: null
 tw.home.description:
-  defaultMessage: TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.
+  englishMessage: TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.
   description: Description of TurboWarp
   message: null
 tw.footer.disclaimer:
-  defaultMessage: Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.
+  englishMessage: Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
   message: null
 tw.footer.host:
-  defaultMessage: Hosting for TurboWarp is provided by {fosshost}.
+  englishMessage: Hosting for TurboWarp is provided by {fosshost}.
   description: Host credit
   message: null
 tw.footer.host.fosshost:
-  defaultMessage: fosshost.org
+  englishMessage: fosshost.org
   description: Link to fosshost.org
   message: null
 tw.footer.source:
-  defaultMessage: Source Code
+  englishMessage: Source Code
   description: Link to footer to source code
   message: null
 tw.footer.feedback:
-  defaultMessage: Feedback & Bugs
+  englishMessage: Feedback & Bugs
   description: Link in footer to give feedback
   message: null
 tw.footer.privacy:
-  defaultMessage: Privacy
+  englishMessage: Privacy
   description: Link in footer to privacy policy
   message: null

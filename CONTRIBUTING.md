@@ -17,14 +17,14 @@ Translations are stored in YAML files that contain entries like this:
 
 ```yaml
 tw.menuBar.code:
-  defaultMessage: Source Code
+  englishMessage: Source Code
   description: Text for source code link in the Help menu
   message: null
 ```
 
 `tw.menuBar.code` is the message ID. This is used internally. Do not change this.
 
-`defaultMessage` is the English translation of the message for you to reference. Do not change this.
+`englishMessage` is the English translation of the message for you to reference. Do not change this.
 
 `description` describes more about the message, where it's displayed, the context, etc. Do not change this.
 
@@ -32,7 +32,7 @@ tw.menuBar.code:
 
 ```yaml
 gui.turboMode.active:
-  defaultMessage: Turbo Mode
+  englishMessage: Turbo Mode
   description: Label indicating turbo mode is active
   message: Modo Turbo
 ```
@@ -44,7 +44,9 @@ Keep the following in mind while writing translations:
  - If something does not need to be translated, feel free to leave it as null.
  - Don't worry too hard about YAML syntax. Just focus on the translations and we can worry about the technical bits.
 
-Commit your changes and submit a pull request to this repository. Please enable "Allow edits from maintainers" so that we can fix minor issues without bugging you.
+Commit your changes and submit a pull request to this repository.
+
+Please enable "Allow edits from maintainers" so that we can fix minor issues without bugging you.
 
 ## Special syntax
 
@@ -52,7 +54,7 @@ Sometimes messages can contain variables, for example:
 
 ```yaml
 tw.framerateIndicator:
-  defaultMessage: '{framerate} FPS'
+  englishMessage: '{framerate} FPS'
   description: Label indicating project framerate
   message: null
 ```
@@ -63,11 +65,11 @@ It's also possible that the variable is replaced with another translation, for e
 
 ```yaml
 tw.footer.host:
-  defaultMessage: Hosting for TurboWarp is provided by {fosshost}.
+  englishMessage: Hosting for TurboWarp is provided by {fosshost}.
   description: Host credit
   message: null
 tw.footer.host.fosshost:
-  defaultMessage: fosshost.org
+  englishMessage: fosshost.org
   description: Link to fosshost.org
   message: null
 ```

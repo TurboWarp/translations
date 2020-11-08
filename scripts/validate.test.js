@@ -2,7 +2,7 @@ const YAML = require('./yaml');
 const {validateLanguage, validateMessage} = require('./validate-lib');
 
 const m = {
-  defaultMessage: '123',
+  englishMessage: '123',
   description: 'abc',
   message: null
 };
@@ -54,11 +54,11 @@ expectInvalidMessage('tw.123', "null");
 expectInvalidMessage('tw.123', 123);
 expectInvalidMessage('tw.123', []);
 expectInvalidMessage('tw.123', {
-  defaultMessage: '123',
+  englishMessage: '123',
   description: 'abc',
 });
 expectInvalidMessage('tw.123', {
-  defaultMessage: '123',
+  englishMessage: '123',
   message: null
 });
 expectInvalidMessage('tw.123', {
@@ -75,7 +75,7 @@ expectInvalidMessage('tw.123', {
 });
 expectInvalidMessage('tw.123', {
   ...m,
-  defaultMessage: null
+  englishMessage: null
 });
 expectInvalidMessage('tw.123', {
   ...m,
@@ -83,31 +83,31 @@ expectInvalidMessage('tw.123', {
 });
 expectValidMessage('tw.123', {
   ...m,
-  defaultMessage: '{var}',
+  englishMessage: '{var}',
   message: null
 });
 expectValidMessage('tw.123', {
   ...m,
-  defaultMessage: 'foo {var}',
+  englishMessage: 'foo {var}',
   message: 'bar {var}'
 });
 expectInvalidMessage('tw.123', {
   ...m,
-  defaultMessage: '{var}',
+  englishMessage: '{var}',
   message: '{var2}'
 });
 expectInvalidMessage('tw.123', {
   ...m,
-  defaultMessage: '{var}',
+  englishMessage: '{var}',
   message: 'abc'
 });
 expectInvalidMessage('tw.123', {
   ...m,
-  defaultMessage: '{var}',
+  englishMessage: '{var}',
   message: '{var}{foo}'
 });
 expectInvalidMessage('tw.123', {
   ...m,
-  defaultMessage: 'foo',
+  englishMessage: 'foo',
   message: '{bar}'
 });
