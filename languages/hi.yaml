@@ -1,0 +1,152 @@
+tw.gui.crashMessage.description:
+  defaultMessage: हम लोग को माफ़ करेइन, लेकिनग लग्ता हैन कि TurboWarp तक्रा चुक. क्रिपिया अपना page को refresh क्र्दिजिये फ़िर्से प्रयास करने के लिये
+  description: Message to inform the user that page has crashed.
+  message: null
+tw.loadingMessage:
+  defaultMessage: लोडिंग परियोजना..
+  description: Default loading message
+  message: null
+tw.menuBar.60off:
+  defaultMessage: 60 FPS mode शुरु करेइन 
+  description: Menu bar item for turning off 60 FPS mode
+  message: null
+tw.menuBar.60on:
+  defaultMessage: 60 FPS mode बन्द कर देइन
+  description: Menu bar item for turning on 60 FPS mode
+  message: null
+tw.menuBar.changeUsername:
+  defaultMessage: उपयोगकर्ता नाम परिवर्तन करें..
+  description: Menu bar item for changing the username
+  message: null
+tw.menuBar.cloudOff:
+  defaultMessage: Cloud Variables बन्द करेइन
+  description: Menu bar item for disabling cloud variables
+  message: null
+tw.menuBar.cloudOn:
+  defaultMessage: Cloud Variables शुरु करेइन
+  description: Menu bar item for enabling cloud variables
+  message: null
+tw.menuBar.cloudUnavailable:
+  defaultMessage: Cloud Variables उपलब्ध नहीं है
+  description: Menu bar item for when cloud variables are not available
+  message: null
+tw.menuBar.advanced:
+  defaultMessage: उननत
+  description: Text for advanced settings dropdown menu
+  message: null
+tw.menuBar.hqpOff:
+  defaultMessage: उच्च गुणवत्ता Pen
+  description: Menu bar item for turning off high quality pen
+  message: null
+tw.menuBar.hqpOn:
+  defaultMessage: उच्च गुणवत्ता Pen शुरु करेइन
+  description: Menu bar item for turning on high quality pen
+  message: null
+tw.menuBar.compilerOff:
+  defaultMessage: Compiler बन्द करेइन
+  description: Menu bar item for disabling the compiler
+  message: null
+tw.menuBar.compilerOn:
+  defaultMessage: Compiler शुरु करेइन
+  description: Menu bar item for enabling the compiler
+  message: null
+tw.menuBar.warpTimerOff:
+  defaultMessage: Warp Timer (Stuck Checking) बन्द करेइन
+  description: Menu bar item for turning off Warp Timer
+  message: null
+tw.menuBar.warpTimerOn:
+  defaultMessage: Warp Timer (Stuck Checking) शुरु करेइन
+  description: Menu bar item for turning on Warp Timer
+  message: null
+tw.menuBar.help:
+  defaultMessage: मदत
+  description: Text for TurboWarp Help dropdown menu
+  message: null
+tw.menuBar.code:
+  defaultMessage: Code का स्रोत
+  description: Text for source code link in the Help menu
+  message: null
+tw.menuBar.feedback:
+  defaultMessage: प्रतिक्रिया और कीड़े
+  description: Text for feedback link in the Help menu
+  message: null
+tw.menuBar.privacy:
+  defaultMessage: एकांत
+  description: Text for privacy policy link in the Help menu
+  message: null
+tw.menuBar.embed:
+  defaultMessage: Embedding
+  description: Text for embedding link in the Help menu
+  message: null
+tw.menuBar.parameters:
+  defaultMessage: URL मापदंडों
+  description: Text for url parameters link in the Help menu
+  message: null
+tw.giveFeedback:
+  defaultMessage: प्रतिक्रिया दें
+  description: Text for the giving feedback button
+  message: null
+tw.unsavedChanges:
+  defaultMessage: न सहेजा गया परिवर्तन
+  description: Title bar link indicating unsaved changes
+  message: null
+tw.menuBar.seeInside:
+  defaultMessage: अनदर देखिये
+  description: Label for see inside button
+  message: null
+tw.home.instructions:
+  defaultMessage: अनुदेश
+  description: Header for instructions section of description
+  message: null
+tw.home.credit:
+  defaultMessage: टिप्पणियाँ और च्रेदित
+  description: Header for notes and credits section of description
+  message: null
+tw.viewFeaturedProjects:
+  defaultMessage: Click करिये featured projects देखने के लियेन.
+  description: Text to view featured projects
+  message: null
+tw.featuredProjectsStudio:
+  defaultMessage: Studio देहेइन Scratch पर.
+  description: Link to turbowarp featured projects studio
+  message: null
+tw.framerateIndicator:
+  defaultMessage: "{framerate} FPS"
+  description: Label indicating project framerate
+  message: null
+tw.alerts.warning:
+  defaultMessage: Warp Timer खोलेइन य compiler बन्द करेइन (in Advanced menu) जब projects को बना रहे हो संभावित डेटा हानि से बचने के लिए. और यह ध्यान मैन रखिये कि scripts फ़िर्से शुरु होनअ पर्द सकता है तकि बदलाब लागू करने के लिए.
+  description: Message warning user of potential data loss.
+  message: null
+tw.gui.defaultProjectTitle:
+  defaultMessage: परियोजना
+  description: Default title for project
+  message: null
+tw.home.description:
+  defaultMessage: TurboWarp ऐक Scratch mod हैन जो project को JavaScript को compile कर्ता हैन तकि वह बहुत तेज चल सके. ऊपर एक प्रोजेक्ट आईडी या URL इनपुट करके या नीचे एक विशेष प्रोजेक्ट चुनकर इसे आज़माएं।
+  description: Description of TurboWarp
+  message: null
+tw.footer.disclaimer:
+  defaultMessage: स्क्रैच वेबसाइट से परियोजनाओं को क्रिएटिव कॉमन्स एट्रीब्यूशन-शेयरएलाइक 2.0 लाइसेंस के तहत लाइसेंस प्राप्त है। TurboWarp स्क्रैच, स्क्रैच टीम या स्क्रैच फाउंडेशन से संबद्ध नहीं है।
+  description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
+  message: null
+tw.footer.host:
+  defaultMessage: TurboWarp का hosting {fosshost} देता हैन.
+  description: Host credit
+  message: null
+tw.footer.host.fosshost:
+  defaultMessage: fosshost.org
+  description: Link to fosshost.org
+  message: null
+tw.footer.source:
+  defaultMessage: Code का स्रोत
+  description: Link to footer to source code
+  message: null
+tw.footer.feedback:
+  defaultMessage: प्रतिक्रिया और कीड़े
+  description: Link in footer to give feedback
+  message: null
+tw.footer.privacy:
+  defaultMessage: एकांत
+  description: Link in footer to privacy policy
+  message: null
