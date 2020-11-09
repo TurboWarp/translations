@@ -93,7 +93,7 @@ tw.unsavedChanges:
 tw.menuBar.seeInside:
   englishMessage: See Inside
   description: Label for see inside button
-  message: Vedi Dentro
+  message: Guarda dentro
 tw.home.instructions:
   englishMessage: Instructions
   description: Header for instructions section of description
