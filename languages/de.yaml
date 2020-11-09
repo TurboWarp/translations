@@ -1,152 +1,152 @@
 tw.gui.crashMessage.description:
-  englishMessage: Es tut uns Leid, aber es sieht aus als wäre TurboWarp abgestürtzt. Bitte aktualisieren Sie die Seite und versuche es erneut.
+  germanMessage: Es tut uns Leid, aber es sieht aus als wäre TurboWarp abgestürtzt. Bitte aktualisieren Sie die Seite und versuche es erneut.
   description: Message to inform the user that page has crashed.
   message: null
 tw.loadingMessage:
-  englishMessage: Lade Projekt …
+  germanMessage: Lade Projekt …
   description: Default loading message
   message: null
 tw.menuBar.60off:
-  englishMessage: Schalte 60 FPS Modus aus
+  germanMessage: Schalte 60 FPS Modus aus
   description: Menu bar item for turning off 60 FPS mode
   message: null
 tw.menuBar.60on:
-  englishMessage: Schalte 60 FPS Modus an
+  germanMessage: Schalte 60 FPS Modus an
   description: Menu bar item for turning on 60 FPS mode
   message: null
 tw.menuBar.changeUsername:
-  englishMessage: Ändere Benutzernamen
+  germanMessage: Ändere Benutzernamen
   description: Menu bar item for changing the username
   message: null
 tw.menuBar.cloudOff:
-  englishMessage: Schalte Cloudvariablen aus
+  germanMessage: Schalte Cloudvariablen aus
   description: Menu bar item for disabling cloud variables
   message: null
 tw.menuBar.cloudOn:
-  englishMessage: Schalte Cloudvariablen an
+  germanMessage: Schalte Cloudvariablen an
   description: Menu bar item for enabling cloud variables
   message: null
 tw.menuBar.cloudUnavailable:
-  englishMessage: Cloudvariablen sind nicht verfügbar.
+  germanMessage: Cloudvariablen sind nicht verfügbar.
   description: Menu bar item for when cloud variables are not available
   message: null
 tw.menuBar.advanced:
-  englishMessage: Fortgeschritten
+  germanMessage: Fortgeschritten
   description: Text for advanced settings dropdown menu
   message: null
 tw.menuBar.hqpOff:
-  englishMessage: Schalte hochwertigen Stift aus
+  germanMessage: Schalte hochwertigen Stift aus
   description: Menu bar item for turning off high quality pen
   message: null
 tw.menuBar.hqpOn:
-  englishMessage: Schalte hochwertigen Stift an
+  germanMessage: Schalte hochwertigen Stift an
   description: Menu bar item for turning on high quality pen
   message: null
 tw.menuBar.compilerOff:
-  englishMessage: Schalte Compiler aus
+  germanMessage: Schalte Compiler aus
   description: Menu bar item for disabling the compiler
   message: null
 tw.menuBar.compilerOn:
-  englishMessage: Schalte Compiler an
+  germanMessage: Schalte Compiler an
   description: Menu bar item for enabling the compiler
   message: null
 tw.menuBar.warpTimerOff:
-  englishMessage: Schalte Warp Timer (Steckt fest beim prüfen) aus
+  germanMessage: Schalte Warp Timer (Steckt fest beim prüfen) aus
   description: Menu bar item for turning off Warp Timer
   message: null
 tw.menuBar.warpTimerOn:
-  englishMessage: Schalte Warp Timer (Steckt fest beim prüfen) an
+  germanMessage: Schalte Warp Timer (Steckt fest beim prüfen) an
   description: Menu bar item for turning on Warp Timer
   message: null
 tw.menuBar.help:
-  englishMessage: Hilfe
+  germanMessage: Hilfe
   description: Text for TurboWarp Help dropdown menu
   message: null
 tw.menuBar.code:
-  englishMessage: Quellcode
+  germanMessage: Quellcode
   description: Text for source code link in the Help menu
   message: null
 tw.menuBar.feedback:
-  englishMessage: Rückmeldung & Fehler
+  germanMessage: Rückmeldung & Fehler
   description: Text for feedback link in the Help menu
   message: null
 tw.menuBar.privacy:
-  englishMessage: Datenschutz
+  germanMessage: Datenschutz
   description: Text for privacy policy link in the Help menu
   message: null
 tw.menuBar.embed:
-  englishMessage: Einbettung
+  germanMessage: Einbettung
   description: Text for embedding link in the Help menu
   message: null
 tw.menuBar.parameters:
-  englishMessage: URL Parameter
+  germanMessage: URL Parameter
   description: Text for url parameters link in the Help menu
   message: null
 tw.giveFeedback:
-  englishMessage: Geben Sie Rückmeldung
+  germanMessage: Geben Sie Rückmeldung
   description: Text for the giving feedback button
   message: null
 tw.unsavedChanges:
-  englishMessage: Ungespeicherte Veränderungen
+  germanMessage: Ungespeicherte Veränderungen
   description: Title bar link indicating unsaved changes
   message: null
 tw.menuBar.seeInside:
-  englishMessage: Schau hinein
+  germanMessage: Schau hinein
   description: Label for see inside button
   message: null
 tw.home.instructions:
-  englishMessage: Anleitung
+  germanMessage: Anleitung
   description: Header for instructions section of description
   message: null
 tw.home.credit:
-  englishMessage: Notitzen und Danksagung
+  germanMessage: Notitzen und Danksagung
   description: Header for notes and credits section of description
   message: null
 tw.viewFeaturedProjects:
-  englishMessage: Klicke um vorgestellte Projekte anzusehen.
+  germanMessage: Klicke um vorgestellte Projekte anzusehen.
   description: Text to view featured projects
   message: null
 tw.featuredProjectsStudio:
-  englishMessage: Schaue das Studio auf Scratch an.
+  germanMessage: Schaue das Studio auf Scratch an.
   description: Link to turbowarp featured projects studio
   message: null
 tw.framerateIndicator:
-  englishMessage: "{Bilder pro Sekunde} FPS"
+  germanMessage: "{Bilder pro Sekunde} FPS"
   description: Label indicating project framerate
   message: null
 tw.alerts.warning:
-  englishMessage: Schalte den Warp Timer an oder den Compiler aus (im Fortgeschritten Menü), wenn du an deinem Projekt arbeitest, um potenziellen Datenverlust zu verhindern. Merke auch, dass Skripte möglicherweise neugestartet werden müssen um die Veränderungen anzuwenden.
+  germanMessage: Schalte den Warp Timer an oder den Compiler aus (im Fortgeschritten Menü), wenn du an deinem Projekt arbeitest, um potenziellen Datenverlust zu verhindern. Merke auch, dass Skripte möglicherweise neugestartet werden müssen um die Veränderungen anzuwenden.
   description: Message warning user of potential data loss.
   message: null
 tw.gui.defaultProjectTitle:
-  englishMessage: Projekt
+  germanMessage: Projekt
   description: Default title for project
   message: null
 tw.home.description:
-  englishMessage: TurboWarp ist ein Scratch Mod der Projekte in Javascript compiliert, um sie sehr schnell laufen zu lassen. Probieren Sie es aus indem Sie eine Projekt ID oder URL oben eingeben, oder ein vorgestelltes Projekt unten auswählen. 
+  germanMessage: TurboWarp ist ein Scratch Mod der Projekte in Javascript compiliert, um sie sehr schnell laufen zu lassen. Probieren Sie es aus indem Sie eine Projekt ID oder URL oben eingeben, oder ein vorgestelltes Projekt unten auswählen. 
   description: Description of TurboWarp
   message: null
 tw.footer.disclaimer:
-  englishMessage: Projekte von der Scratch Webseite sind uter der "Commons Attribution-ShareAlike 2.0 license" lizensiert. TurboWarp gehört nicht zu Scratch, dem Scratch Team, oder der Scratch Foundation.
+  germanMessage: Projekte von der Scratch Webseite sind uter der "Commons Attribution-ShareAlike 2.0 license" lizensiert. TurboWarp gehört nicht zu Scratch, dem Scratch Team, oder der Scratch Foundation.
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
   message: null
 tw.footer.host:
-  englishMessage: Hosting für TurboWarp ist bereitgesetellt von{fosshost}.
+  germanMessage: Hosting für TurboWarp ist bereitgesetellt von{fosshost}.
   description: Host credit
   message: null
 tw.footer.host.fosshost:
-  englishMessage: fosshost.org
+  germanMessage: fosshost.org
   description: Link to fosshost.org
   message: null
 tw.footer.source:
-  englishMessage: Quellcode
+  germanMessage: Quellcode
   description: Link to footer to source code
   message: null
 tw.footer.feedback:
-  englishMessage: Rückmeldung & Fehler
+  germanMessage: Rückmeldung & Fehler
   description: Link in footer to give feedback
   message: null
 tw.footer.privacy:
-  englishMessage: Datenschutz
+  germanMessage: Datenschutz
   description: Link in footer to privacy policy
   message: null
