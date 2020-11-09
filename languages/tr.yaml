@@ -3,51 +3,51 @@ tw.gui.crashMessage.description:
   description: Message to inform the user that page has crashed.
   message: null
 tw.loadingMessage:
-  defaultMessage: Loading project …
+  defaultMessage: Proje yükleniyor …
   description: Default loading message
   message: null
 tw.menuBar.60off:
-  defaultMessage: Turn off 60 FPS mode
+  defaultMessage: 60 FPS modunu kapat
   description: Menu bar item for turning off 60 FPS mode
   message: null
 tw.menuBar.60on:
-  defaultMessage: Turn on 60 FPS mode
+  defaultMessage: 60 FPS modunu aç
   description: Menu bar item for turning on 60 FPS mode
   message: null
 tw.menuBar.changeUsername:
-  defaultMessage: Change Username
+  defaultMessage: Adını değiştir
   description: Menu bar item for changing the username
   message: null
 tw.menuBar.cloudOff:
-  defaultMessage: Disable Cloud Variables
+  defaultMessage: Bulut değişkenleri kapat
   description: Menu bar item for disabling cloud variables
   message: null
 tw.menuBar.cloudOn:
-  defaultMessage: Enable Cloud Variables
+  defaultMessage: Bulut değişkenleri aç
   description: Menu bar item for enabling cloud variables
   message: null
 tw.menuBar.cloudUnavailable:
-  defaultMessage: Cloud Variables are not Available
+  defaultMessage: Bulur Değişkenleri bulamıyoruz
   description: Menu bar item for when cloud variables are not available
   message: null
 tw.menuBar.advanced:
-  defaultMessage: Advanced
+  defaultMessage: Gelişmiş
   description: Text for advanced settings dropdown menu
   message: null
 tw.menuBar.hqpOff:
-  defaultMessage: Turn off High Quality Pen
+  defaultMessage: Yüksek kalite kalemi kapat
   description: Menu bar item for turning off high quality pen
   message: null
 tw.menuBar.hqpOn:
-  defaultMessage: Turn on High Quality Pen
+  defaultMessage: Yüksek kalite kalemi aç
   description: Menu bar item for turning on high quality pen
   message: null
 tw.menuBar.compilerOff:
-  defaultMessage: Disable Compiler
+  defaultMessage: Derlemeyi kapat
   description: Menu bar item for disabling the compiler
   message: null
 tw.menuBar.compilerOn:
-  defaultMessage: Enable Compiler
+  defaultMessage: Derlemeyi aç
   description: Menu bar item for enabling the compiler
   message: null
 tw.menuBar.warpTimerOff:
@@ -59,19 +59,19 @@ tw.menuBar.warpTimerOn:
   description: Menu bar item for turning on Warp Timer
   message: null
 tw.menuBar.help:
-  defaultMessage: Help
+  defaultMessage: Yardım
   description: Text for TurboWarp Help dropdown menu
   message: null
 tw.menuBar.code:
-  defaultMessage: Source Code
+  defaultMessage: Kaynak Kodu
   description: Text for source code link in the Help menu
   message: null
 tw.menuBar.feedback:
-  defaultMessage: Feedback & Bugs
+  defaultMessage: Geribildirim & Hatalar
   description: Text for feedback link in the Help menu
   message: null
 tw.menuBar.privacy:
-  defaultMessage: Privacy
+  defaultMessage: Gizlilik
   description: Text for privacy policy link in the Help menu
   message: null
 tw.menuBar.embed:
@@ -83,7 +83,7 @@ tw.menuBar.parameters:
   description: Text for url parameters link in the Help menu
   message: null
 tw.giveFeedback:
-  defaultMessage: Give Feedback
+  defaultMessage: Geribildirim ver
   description: Text for the giving feedback button
   message: null
 tw.unsavedChanges:
@@ -91,11 +91,11 @@ tw.unsavedChanges:
   description: Title bar link indicating unsaved changes
   message: null
 tw.menuBar.seeInside:
-  defaultMessage: See Inside
+  defaultMessage: İçeri bak
   description: Label for see inside button
   message: null
 tw.home.instructions:
-  defaultMessage: Instructions
+  defaultMessage: Kurallar
   description: Header for instructions section of description
   message: null
 tw.home.credit:
@@ -131,7 +131,7 @@ tw.footer.disclaimer:
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
   message: null
 tw.footer.host:
-  defaultMessage: Hosting for TurboWarp is provided by {fosshost}.
+  defaultMessage: Turbowarp'u {fosshost} sağlıyor.
   description: Host credit
   message: null
 tw.footer.host.fosshost:
@@ -139,14 +139,14 @@ tw.footer.host.fosshost:
   description: Link to fosshost.org
   message: null
 tw.footer.source:
-  defaultMessage: Source Code
+  defaultMessage: Kaynak Kodu
   description: Link to footer to source code
   message: null
 tw.footer.feedback:
-  defaultMessage: Feedback & Bugs
+  defaultMessage: Geribildirim ve Hatalar
   description: Link in footer to give feedback
   message: null
 tw.footer.privacy:
-  defaultMessage: Privacy
+  defaultMessage: Gizillik
   description: Link in footer to privacy policy
   message: null
