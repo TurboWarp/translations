@@ -45,11 +45,11 @@ tw.menuBar.hqpOn:
 tw.menuBar.compilerOff:
   englishMessage: Disable Compiler
   description: Menu bar item for disabling the compiler
-  message: null
+  message: Désactiver le compilateur
 tw.menuBar.compilerOn:
   englishMessage: Enable Compiler
   description: Menu bar item for enabling the compiler
-  message: null
+  message: Activer le compilateur
 tw.menuBar.warpTimerOff:
   englishMessage: Turn off Warp Timer (Stuck Checking)
   description: Menu bar item for turning off Warp Timer
@@ -65,7 +65,7 @@ tw.menuBar.help:
 tw.menuBar.code:
   englishMessage: Source Code
   description: Text for source code link in the Help menu
-  message: null
+  message: Code source
 tw.menuBar.feedback:
   englishMessage: Feedback & Bugs
   description: Text for feedback link in the Help menu
@@ -73,7 +73,7 @@ tw.menuBar.feedback:
 tw.menuBar.privacy:
   englishMessage: Privacy
   description: Text for privacy policy link in the Help menu
-  message: null
+  message: Confidentialitée
 tw.menuBar.embed:
   englishMessage: Embedding
   description: Text for embedding link in the Help menu
@@ -105,7 +105,7 @@ tw.home.credit:
 tw.viewFeaturedProjects:
   englishMessage: Click to view featured projects.
   description: Text to view featured projects
-  message: null
+  message: Cliquez pour voir les projets sélectionnés.
 tw.featuredProjectsStudio:
   englishMessage: View studio on Scratch.
   description: Link to turbowarp featured projects studio
@@ -149,4 +149,4 @@ tw.footer.feedback:
 tw.footer.privacy:
   englishMessage: Privacy
   description: Link in footer to privacy policy
-  message: null
+  message: Confidentialité
