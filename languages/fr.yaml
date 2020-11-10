@@ -1,7 +1,7 @@
 tw.gui.crashMessage.description:
   englishMessage: We are so sorry, but it looks like TurboWarp has crashed. Please refresh your page to try again.
   description: Message to inform the user that page has crashed.
-  message: Nous sommes désolés, mais il semble que turbowarp s'est crashé. Actualisez la page pour réessayer.
+  message: Nous sommes désolés, mais il semble que TurboWarp s'est crashé. Actualisez la page pour réessayer.
 tw.loadingMessage:
   englishMessage: Loading project …
   description: Default loading message
@@ -125,7 +125,7 @@ tw.gui.defaultProjectTitle:
 tw.home.description:
   englishMessage: TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.
   description: Description of TurboWarp
-  message: Turbowarp est un Scratch mod qui compile les projets en JavaScript pour qu'ils soient éxécutés plus rapidement. Pour l'essayer, Entrez une URL ou l'ID d'un projet ci-dessus ou choisissez l'un des projets sélectionné.
+  message: TurboWarp est un Scratch mod qui compile les projets en JavaScript pour qu'ils soient éxécutés plus rapidement. Pour l'essayer, Entrez une URL ou l'ID d'un projet ci-dessus ou choisissez l'un des projets sélectionné.
 tw.footer.disclaimer:
   englishMessage: Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
