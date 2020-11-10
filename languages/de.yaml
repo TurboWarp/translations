@@ -131,9 +131,9 @@ tw.footer.disclaimer:
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
   message: Projekte von der Scratch Webseite sind uter der "Commons Attribution-ShareAlike 2.0 license" lizensiert. TurboWarp gehört nicht zu Scratch, dem Scratch Team, oder der Scratch Foundation.
 tw.footer.host:
-  englishMessage: 
+  englishMessage: Hosting for TurboWarp is provided by {fosshost}.
   description: Host credit
-  message: Gehostet wird TurboWarp von{fosshost}.
+  message: Gehostet wird TurboWarp von {fosshost}.
 tw.footer.host.fosshost:
   englishMessage: fosshost.org
   description: Link to fosshost.org
