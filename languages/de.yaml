@@ -83,7 +83,7 @@ tw.menuBar.parameters:
   description: Text for url parameters link in the Help menu
   message: URL Paramete
 tw.giveFeedback:
-  englishMessage:: Give Feedback
+  englishMessage: Give Feedback
   description: Text for the giving feedback button
   message: Geben Sie Rückmeldung
 tw.unsavedChanges:
