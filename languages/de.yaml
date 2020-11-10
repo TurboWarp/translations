@@ -99,7 +99,7 @@ tw.home.instructions:
   description: Header for instructions section of description
   message: Anleitung
 tw.home.credit:
-  englishMessage:  Notes and Credits
+  englishMessage: Notes and Credits
   description: Header for notes and credits section of description
   message: Notitzen und Danksagung
 tw.viewFeaturedProjects:
