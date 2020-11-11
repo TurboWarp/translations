@@ -29,7 +29,7 @@ tw.menuBar.cloudOn:
 tw.menuBar.cloudUnavailable:
   englishMessage: Cloud Variables are not Available
   description: Menu bar item for when cloud variables are not available
-  message: Cloudvariablen sind nicht verfügbar.
+  message: Cloudvariablen sind nicht verfügbar
 tw.menuBar.advanced:
   englishMessage: Advanced
   description: Text for advanced settings dropdown menu
