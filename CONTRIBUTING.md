@@ -1,4 +1,6 @@
-# Submitting Translations
+WIP
+
+<!-- # Submitting Translations
 
 If you have questions following these steps, please open an issue: https://github.com/TurboWarp/translations/issues
 
@@ -78,4 +80,4 @@ tw.footer.host.fosshost:
   message: null
 ```
 
-When this happens, the variable's translation is usually directly below the primary message. In this case, `{fosshost}` will be replaced with the translation of `tw.footer.host.fosshost`. This generally only happens when a translation contains a link, for example.
+When this happens, the variable's translation is usually directly below the primary message. In this case, `{fosshost}` will be replaced with the translation of `tw.footer.host.fosshost`. This generally only happens when a translation contains a link, for example. -->
