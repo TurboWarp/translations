@@ -1,54 +1,52 @@
-tw.gui.crashMessage.description,Message to inform the user that page has crashed.,"We are so sorry, but it looks like TurboWarp has crashed. Please refresh your page to try again.","We are so sorry, but it looks like TurboWarp has crashed. Please refresh your page to try again."
-tw.loadingMessage,Default loading message,Loading project …,Loading project …
-tw.menuBar.60off,Menu bar item for turning off 60 FPS mode,Turn off 60 FPS mode,Turn off 60 FPS mode
-tw.menuBar.60on,Menu bar item for turning on 60 FPS mode,Turn on 60 FPS mode,Turn on 60 FPS mode
-tw.menuBar.changeUsername,Menu bar item for changing the username,Change Username,Change Username
-tw.menuBar.cloudOff,Menu bar item for disabling cloud variables,Disable Cloud Variables,Disable Cloud Variables
-tw.menuBar.cloudOn,Menu bar item for enabling cloud variables,Enable Cloud Variables,Enable Cloud Variables
-tw.menuBar.cloudUnavailable,Menu bar item for when cloud variables are not available,Cloud Variables are not Available,Cloud Variables are not Available
-tw.menuBar.advanced,Text for advanced settings dropdown menu,Advanced,Advanced
-tw.menuBar.hqpOff,Menu bar item for turning off high quality pen,Turn off High Quality Pen,Turn off High Quality Pen
-tw.menuBar.hqpOn,Menu bar item for turning on high quality pen,Turn on High Quality Pen,Turn on High Quality Pen
-tw.menuBar.compilerOff,Menu bar item for disabling the compiler,Disable Compiler,Disable Compiler
-tw.menuBar.compilerOn,Menu bar item for enabling the compiler,Enable Compiler,Enable Compiler
-tw.menuBar.warpTimerOff,Menu bar item for turning off Warp Timer,Turn off Warp Timer (Stuck Checking),Turn off Warp Timer (Stuck Checking)
-tw.menuBar.warpTimerOn,Menu bar item for turning on Warp Timer,Turn on Warp Timer (Stuck Checking),Turn on Warp Timer (Stuck Checking)
-tw.menuBar.help,Text for TurboWarp Help dropdown menu,Help,Help
-tw.menuBar.code,Menu bar item for source code link,Source Code,Source Code
-tw.menuBar.feedback,Menu bar item for feedback link,Feedback & Bugs,Feedback & Bugs
-tw.menuBar.privacy,Menu bar item for privacy policy link,Privacy,Privacy
-tw.menuBar.embed,Menu bar item for embedding link,Embedding,Embedding
-tw.menuBar.parameters,Menu bar item for URL parameters link,URL Parameters,URL Parameters
-tw.giveFeedback,Text for the giving feedback button,Give Feedback,Give Feedback
-tw.unsavedChanges,Title bar link indicating unsaved changes,Unsaved Changes,Unsaved Changes
-tw.menuBar.seeInside,Label for see inside button,See Inside,See Inside
-tw.home.instructions,Header for instructions section of description,Instructions,Instructions
-tw.home.credit,Header for notes and credits section of description,Notes and Credits,Notes and Credits
-tw.viewFeaturedProjects,Text to view featured projects,Click to view featured projects.,Click to view featured projects.
-tw.featuredProjectsStudio,Link to turbowarp featured projects studio,View studio on Scratch.,View studio on Scratch.
-tw.framerateIndicator,Label indicating project framerate,{framerate} FPS,{framerate} FPS
-tw.alerts.warning,Message warning user of potential data loss.,Turn on Warp Timer or disable compiler (in Advanced menu) while creating projects to avoid potential data loss. Also note that scripts may need to be restarted for changes to apply.,Turn on Warp Timer or disable compiler (in Advanced menu) while creating projects to avoid potential data loss. Also note that scripts may need to be restarted for changes to apply.
-tw.gui.defaultProjectTitle,Default title for project,Project,Project
-tw.home.description,Description of TurboWarp,TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.,TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.
-tw.footer.disclaimer,Disclaimer that TurboWarp is not connected to Scratch and licensing information,"Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.","Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
-tw.footer.host,Host credit,Hosting for TurboWarp is provided by {fosshost}.,Hosting for TurboWarp is provided by {fosshost}.
-tw.footer.host.fosshost,Link to fosshost.org,fosshost.org,fosshost.org
-tw.footer.source,Link to footer to source code,Source Code,Source Code
-tw.footer.feedback,Link in footer to give feedback,Feedback & Bugs,Feedback & Bugs
-tw.footer.privacy,Link in footer to privacy policy,Privacy,Privacy
-tw.loader.generic,Initial generic loading message,Loading project …,Loading project …
-tw.loader.data,Appears when loading project data,Loading project data …,Loading project data …
-tw.loader.assets.known,Appears when loading project assets and amount of assets is known,Loading assets ({complete}/{total}) …,Loading assets ({complete}/{total}) …
-tw.loader.assets.unknown,Appears when loading project assets but amount of assets is unknown,Loading assets …,Loading assets …
-tw.menuBar.advancedHelp,Menu bar item for advanced settings help,Advanced Settings Help,Advanced Settings Help
-tw.menuBar.translate,Menu bar item for translating TurboWarp link,Help Translate TurboWarp,Help Translate TurboWarp
-tw.examples.view,Text to view example projects,Click to view example projects.,Click to view example projects.
-tw.examples.studioLink,Link to turbowarp examples studio,View studio on Scratch.,View studio on Scratch.
-tw.studioview.authorAttribution,Displayed in StudioView under project title to credit creator,by {author},by {author}
-tw.studioview.hoverText,Displayed in StudioView when hovering on a project,{title} by {author},{title} by {author}
-tw.studioview.error,Displayed in StudioView when an error occurs,There was an error loading the next page of projects.,There was an error loading the next page of projects.
+tw.gui.crashMessage.description,Message to inform the user that page has crashed.,"We are so sorry, but it looks like TurboWarp has crashed. Please refresh your page to try again."
+tw.loadingMessage,Default loading message,Loading project …
+tw.menuBar.60off,Menu bar item for turning off 60 FPS mode,Turn off 60 FPS mode
+tw.menuBar.60on,Menu bar item for turning on 60 FPS mode,Turn on 60 FPS mode
+tw.menuBar.changeUsername,Menu bar item for changing the username,Change Username
+tw.menuBar.cloudOff,Menu bar item for disabling cloud variables,Disable Cloud Variables
+tw.menuBar.cloudOn,Menu bar item for enabling cloud variables,Enable Cloud Variables
+tw.menuBar.cloudUnavailable,Menu bar item for when cloud variables are not available,Cloud Variables are not Available
+tw.menuBar.advanced,Text for advanced settings dropdown menu,Advanced
+tw.menuBar.hqpOff,Menu bar item for turning off high quality pen,Turn off High Quality Pen
+tw.menuBar.hqpOn,Menu bar item for turning on high quality pen,Turn on High Quality Pen
+tw.menuBar.compilerOff,Menu bar item for disabling the compiler,Disable Compiler
+tw.menuBar.compilerOn,Menu bar item for enabling the compiler,Enable Compiler
+tw.menuBar.warpTimerOff,Menu bar item for turning off Warp Timer,Turn off Warp Timer (Stuck Checking)
+tw.menuBar.warpTimerOn,Menu bar item for turning on Warp Timer,Turn on Warp Timer (Stuck Checking)
+tw.menuBar.help,Text for TurboWarp Help dropdown menu,Help
+tw.menuBar.code,Menu bar item for source code link,Source Code
+tw.menuBar.feedback,Menu bar item for feedback link,Feedback & Bugs
+tw.menuBar.privacy,Menu bar item for privacy policy link,Privacy
+tw.menuBar.embed,Menu bar item for embedding link,Embedding
+tw.menuBar.parameters,Menu bar item for URL parameters link,URL Parameters
+tw.giveFeedback,Text for the giving feedback button,Give Feedback
+tw.unsavedChanges,Title bar link indicating unsaved changes,Unsaved Changes
+tw.menuBar.seeInside,Label for see inside button,See Inside
+tw.home.instructions,Header for instructions section of description,Instructions
+tw.home.credit,Header for notes and credits section of description,Notes and Credits
+tw.viewFeaturedProjects,Text to view featured projects,Click to view featured projects.
+tw.featuredProjectsStudio,Link to turbowarp featured projects studio,View studio on Scratch.
+tw.framerateIndicator,Label indicating project framerate,{framerate} FPS
+tw.alerts.warning,Message warning user of potential data loss.,Turn on Warp Timer or disable compiler (in Advanced menu) while creating projects to avoid potential data loss. Also note that scripts may need to be restarted for changes to apply.
+tw.gui.defaultProjectTitle,Default title for project,Project
+tw.home.description,Description of TurboWarp,TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.
+tw.footer.disclaimer,Disclaimer that TurboWarp is not connected to Scratch and licensing information,"Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
+tw.footer.host,Host credit,Hosting for TurboWarp is provided by {fosshost}.
+tw.footer.host.fosshost,Link to fosshost.org,fosshost.org
+tw.footer.source,Link to footer to source code,Source Code
+tw.footer.feedback,Link in footer to give feedback,Feedback & Bugs
+tw.footer.privacy,Link in footer to privacy policy,Privacy
+tw.loader.generic,Initial generic loading message,Loading project …
+tw.loader.data,Appears when loading project data,Loading project data …
+tw.loader.assets.known,Appears when loading project assets and amount of assets is known,Loading assets ({complete}/{total}) …
+tw.loader.assets.unknown,Appears when loading project assets but amount of assets is unknown,Loading assets …
+tw.menuBar.advancedHelp,Menu bar item for advanced settings help,Advanced Settings Help
+tw.menuBar.translate,Menu bar item for translating TurboWarp link,Help Translate TurboWarp
+tw.examples.view,Text to view example projects,Click to view example projects.
+tw.examples.studioLink,Link to turbowarp examples studio,View studio on Scratch.
+tw.studioview.authorAttribution,Displayed in StudioView under project title to credit creator,by {author}
+tw.studioview.hoverText,Displayed in StudioView when hovering on a project,{title} by {author}
+tw.studioview.error,Displayed in StudioView when an error occurs,There was an error loading the next page of projects.
 tw.usernamePrompt,Warning that appears when connecting to cloud variable server if the username is invalid,"Can't connect to cloud variables because username is invalid. You can change it in Edit > Change Username.
-
-It might be too long, contain invalid characters, or be used by someone else. (Current username: {username})","Can't connect to cloud variables because username is invalid. You can change it in Edit > Change Username.
 
 It might be too long, contain invalid characters, or be used by someone else. (Current username: {username})"

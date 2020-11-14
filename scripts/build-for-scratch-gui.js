@@ -13,8 +13,8 @@ const readTranslations = (path) => {
   const result = {};
   const content = fs.readFileSync(path, { encoding: 'utf8' });
   const parsed = Papa.parse(content);
-  for (const [id, context, source, translation] of parsed.data) {
-    result[id] = translation;
+  for (const [id, context, message] of parsed.data) {
+    result[id] = message;
   }
   return result;
 };

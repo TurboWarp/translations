@@ -36,7 +36,7 @@ const buildCSV = (messages) => {
   const lines = [];
   for (const id of Object.keys(messages)) {
     const {message, context} = messages[id];
-    lines.push([id, context, message, message]);
+    lines.push([id, context, message]);
   }
   return Papa.unparse(lines);
 };
