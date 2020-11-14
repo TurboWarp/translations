@@ -3,8 +3,8 @@ const pathUtil = require('path');
 
 const Papa = require('papaparse');
 const {
-  inputDirectory,
-  pathOfLanguage
+  translationsDirectory,
+  inputDirectory
 } = require('./common');
 
 const getAllFiles = (directory) => {
@@ -64,6 +64,6 @@ for (const file of messageFiles) {
 
 const result = buildCSV(messages);
 
-const englishPath = pathOfLanguage('en');
+const englishPath = pathUtil.join(translationsDirectory, 'en', 'gui.csv');
 console.log(`Writing English translations to ${englishPath}`);
 fs.writeFileSync(englishPath, result);

@@ -1,0 +1,52 @@
+tw.gui.crashMessage.description,Message to inform the user that page has crashed.,"Es tut uns Leid, aber es sieht aus als wäre TurboWarp abgestürtzt. Bitte aktualisieren Sie die Seite und versuche es erneut."
+tw.loadingMessage,Default loading message,Lade Projekt …
+tw.menuBar.60off,Menu bar item for turning off 60 FPS mode,Schalte 60 FPS Modus aus
+tw.menuBar.60on,Menu bar item for turning on 60 FPS mode,Schalte 60 FPS Modus an
+tw.menuBar.changeUsername,Menu bar item for changing the username,Benutzernamen ändern
+tw.menuBar.cloudOff,Menu bar item for disabling cloud variables,Schalte Cloudvariablen aus
+tw.menuBar.cloudOn,Menu bar item for enabling cloud variables,Schalte Cloudvariablen an
+tw.menuBar.cloudUnavailable,Menu bar item for when cloud variables are not available,Cloudvariablen sind nicht verfügbar
+tw.menuBar.advanced,Text for advanced settings dropdown menu,Fortgeschritten
+tw.menuBar.hqpOff,Menu bar item for turning off high quality pen,Schalte hochwertigen Stift aus
+tw.menuBar.hqpOn,Menu bar item for turning on high quality pen,Schalte hochwertigen Stift an
+tw.menuBar.compilerOff,Menu bar item for disabling the compiler,Schalte Compiler aus
+tw.menuBar.compilerOn,Menu bar item for enabling the compiler,Schalte Compiler an
+tw.menuBar.warpTimerOff,Menu bar item for turning off Warp Timer,Schalte Warp Timer (Steckt fest beim prüfen) aus
+tw.menuBar.warpTimerOn,Menu bar item for turning on Warp Timer,Schalte Warp Timer (Steckt fest beim prüfen) an
+tw.menuBar.help,Text for TurboWarp Help dropdown menu,Hilfe
+tw.menuBar.code,Menu bar item for source code link,Quellcode
+tw.menuBar.feedback,Menu bar item for feedback link,Rückmeldung & Fehler
+tw.menuBar.privacy,Menu bar item for privacy policy link,Datenschutz
+tw.menuBar.embed,Menu bar item for embedding link,Einbettung
+tw.menuBar.parameters,Menu bar item for URL parameters link,URL Paramete
+tw.giveFeedback,Text for the giving feedback button,Geben Sie Rückmeldung
+tw.unsavedChanges,Title bar link indicating unsaved changes,Ungespeicherte Veränderungen
+tw.menuBar.seeInside,Label for see inside button,Schau hinein
+tw.home.instructions,Header for instructions section of description,Anleitung
+tw.home.credit,Header for notes and credits section of description,Notitzen und Danksagung
+tw.viewFeaturedProjects,Text to view featured projects,Klicke um vorgestellte Projekte anzusehen.
+tw.featuredProjectsStudio,Link to turbowarp featured projects studio,Schaue das Studio auf Scratch an.
+tw.framerateIndicator,Label indicating project framerate,{framerate} FPS
+tw.alerts.warning,Message warning user of potential data loss.,"Schalte den Warp Timer an oder den Compiler aus (im Fortgeschritten Menü), wenn du an deinem Projekt arbeitest, um potenziellen Datenverlust zu verhindern. Merke auch, dass Skripte möglicherweise neugestartet werden müssen um die Veränderungen anzuwenden."
+tw.gui.defaultProjectTitle,Default title for project,Projekt
+tw.home.description,Description of TurboWarp,"TurboWarp ist ein Scratch Mod der Projekte in Javascript compiliert, um sie sehr schnell laufen zu lassen. Probieren Sie es aus indem Sie eine Projekt ID oder URL oben eingeben, oder ein vorgestelltes Projekt unten auswählen."
+tw.footer.disclaimer,Disclaimer that TurboWarp is not connected to Scratch and licensing information,"Projekte von der Scratch Webseite sind uter der ""Commons Attribution-ShareAlike 2.0 license"" lizensiert. TurboWarp gehört nicht zu Scratch, dem Scratch Team, oder der Scratch Foundation."
+tw.footer.host,Host credit,Gehostet wird TurboWarp von {fosshost}.
+tw.footer.host.fosshost,Link to fosshost.org,fosshost.org
+tw.footer.source,Link to footer to source code,Quellcode
+tw.footer.feedback,Link in footer to give feedback,Rückmeldung & Fehler
+tw.footer.privacy,Link in footer to privacy policy,Datenschutz
+tw.loader.generic,Initial generic loading message,Loading project …
+tw.loader.data,Appears when loading project data,Loading project data …
+tw.loader.assets.known,Appears when loading project assets and amount of assets is known,Loading assets ({complete}/{total}) …
+tw.loader.assets.unknown,Appears when loading project assets but amount of assets is unknown,Loading assets …
+tw.menuBar.advancedHelp,Menu bar item for advanced settings help,Advanced Settings Help
+tw.menuBar.translate,Menu bar item for translating TurboWarp link,Help Translate TurboWarp
+tw.examples.view,Text to view example projects,Click to view example projects.
+tw.examples.studioLink,Link to turbowarp examples studio,View studio on Scratch.
+tw.studioview.authorAttribution,Displayed in StudioView under project title to credit creator,by {author}
+tw.studioview.hoverText,Displayed in StudioView when hovering on a project,{title} by {author}
+tw.studioview.error,Displayed in StudioView when an error occurs,There was an error loading the next page of projects.
+tw.usernamePrompt,Warning that appears when connecting to cloud variable server if the username is invalid,"Can't connect to cloud variables because username is invalid. You can change it in Edit > Change Username.
+
+It might be too long, contain invalid characters, or be used by someone else. (Current username: {username})"

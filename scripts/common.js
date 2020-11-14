@@ -9,11 +9,8 @@ if (!fs.existsSync(inputDirectory)) fs.mkdirSync(inputDirectory);
 if (!fs.existsSync(outputDirectory)) fs.mkdirSync(outputDirectory);
 if (!fs.existsSync(translationsDirectory)) fs.mkdirSync(translationsDirectory);
 
-const pathOfLanguage = (lang) => pathUtil.join(translationsDirectory, lang, 'gui.csv');
-
 module.exports = {
   inputDirectory,
   outputDirectory,
-  translationsDirectory,
-  pathOfLanguage
+  translationsDirectory
 };
