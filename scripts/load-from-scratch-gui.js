@@ -1,11 +1,10 @@
 const fs = require('fs');
 const pathUtil = require('path');
 
-const YAML = require('./yaml');
+const Papa = require('papaparse');
 const {
-  LANGUAGES_DIR,
-  IN_DIR,
-  LANGUAGES
+  inputDirectory,
+  pathOfLanguage
 } = require('./common');
 
 const getAllFiles = (directory) => {
@@ -26,59 +25,23 @@ const getAllFiles = (directory) => {
   return result;
 };
 
-const scanMessages = (path) => {
+const readMessages = (path) => {
   const content = fs.readFileSync(path, { encoding: 'utf8' });
   const parsedMessages = JSON.parse(content);
   return parsedMessages
     .filter((message) => message.id.startsWith('tw.'));
 };
 
-const mergeTranslations = (existing, messages) => {
-  // Make a copy, we will be doing some in-place modifications
-  const result = JSON.parse(JSON.stringify(messages));
-
-  // Copy values from the existing translations to the new.
-  for (const key of Object.keys(result)) {
-    const value = result[key];
-    const existingValue = existing[key];
-    if (existingValue) {
-      // If the english version changed, do not copy.
-      if (existingValue.englishMessage === value.englishMessage) {
-        value.message = existingValue.message;
-      } else {
-        value.message = null;
-      }
-    } else {
-      value.message = null;
-    }
+const buildCSV = (messages) => {
+  const lines = [];
+  for (const id of Object.keys(messages)) {
+    const {message, context} = messages[id];
+    lines.push([id, context, message, message]);
   }
-  for (const key of Object.keys(existing)) {
-    if (!result.hasOwnProperty(key)) {
-      console.warn(`Not copying translation: removed: ${key}`);
-    }
-  }
-
-  return result;
+  return Papa.unparse(lines);
 };
 
-const readLanguageFile = (path) => {
-  if (!fs.existsSync(path)) {
-    return {};
-  }
-  const content = fs.readFileSync(path, { encoding: 'utf8' });
-  return YAML.parse(content, {
-    prettyErrors: true
-  });
-};
-
-const processLanguage = (lang, messages) => {
-  const languageFilePath = pathUtil.join(LANGUAGES_DIR, `${lang}.yaml`);
-  const languageFile = readLanguageFile(languageFilePath);
-  const translations = mergeTranslations(languageFile, messages);
-  fs.writeFileSync(languageFilePath, YAML.stringify(translations));
-};
-
-const messageFiles = getAllFiles(IN_DIR);
+const messageFiles = getAllFiles(inputDirectory);
 const messages = {};
 
 for (const file of messageFiles) {
@@ -87,19 +50,20 @@ for (const file of messageFiles) {
     continue;
   }
 
-  const path = pathUtil.join(IN_DIR, file);
-  const processed = scanMessages(path);
+  const path = pathUtil.join(inputDirectory, file);
+  const processed = readMessages(path);
 
   for (const message of processed) {
     const {id, defaultMessage, description} = message;
     messages[id] = {
-      englishMessage: defaultMessage,
-      description
+      message: defaultMessage,
+      context: description
     };
   }
 }
 
-for (const language of Object.keys(LANGUAGES)) {
-  console.log(`Processing ${language}`);
-  processLanguage(language, messages);
-}
+const result = buildCSV(messages);
+
+const englishPath = pathOfLanguage('en');
+console.log(`Writing English translations to ${englishPath}`);
+fs.writeFileSync(englishPath, result);

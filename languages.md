@@ -3,7 +3,7 @@ If you do not see your language here, open an issue: https://github.com/TurboWar
 
 | Language | File |
 | :-: | :-: |
-| Аҧсшәа | ab.yaml |
+| Аҧсшәа | ab.yaml | MISSING
 | العربية | ar.yaml |
 | አማርኛ | am.yaml |
 | Azeri | az.yaml |
@@ -17,16 +17,16 @@ If you do not see your language here, open an issue: https://github.com/TurboWar
 | Deutsch | de.yaml |
 | Eesti | et.yaml |
 | Ελληνικά | el.yaml |
-| Español | es.yaml |
-| Español Latinoamericano | es-419.yaml |
+| Español | es.yaml | WRONG CODE
+| Español Latinoamericano | es-419.yaml | MISSING
 | Euskara | eu.yaml |
 | فارسی | fa.yaml |
 | Français | fr.yaml |
-| Gaeilge | ga.yaml |
+| Gaeilge | ga.yaml | WRONG CODE
 | Gàidhlig | gd.yaml |
 | Galego | gl.yaml |
 | 한국어 | ko.yaml |
-| Հայերեն | hy.yaml |
+| Հայերեն | hy.yaml | WRONG CODE
 | עִבְרִית | he.yaml |
 | Hrvatski | hr.yaml |
 | isiZulu | zu.yaml |
@@ -44,25 +44,25 @@ If you do not see your language here, open an issue: https://github.com/TurboWar
 | Монгол хэл | mn.yaml |
 | Nederlands | nl.yaml |
 | 日本語 | ja.yaml |
-| にほんご | ja-Hira.yaml |
+| にほんご | ja-Hira.yaml | MISSING
 | Norsk Bokmål | nb.yaml |
-| Norsk Nynorsk | nn.yaml |
+| Norsk Nynorsk | nn.yaml | WRONG CODE
 | Oʻzbekcha | uz.yaml |
 | ไทย | th.yaml |
 | ភាសាខ្មែរ | km.yaml |
 | Polski | pl.yaml |
-| Português | pt.yaml |
-| Português Brasileiro | pt-br.yaml |
-| Rapa Nui | rap.yaml |
+| Português | pt.yaml | WRONG CODE
+| Português Brasileiro | pt-br.yaml | WRONG CODE
+| Rapa Nui | rap.yaml | MISSING
 | Română | ro.yaml |
 | Русский | ru.yaml |
-| Српски | sr.yaml |
+| Српски | sr.yaml | MISSING
 | Slovenčina | sk.yaml |
 | Slovenščina | sl.yaml |
 | Suomi | fi.yaml |
-| Svenska | sv.yaml |
+| Svenska | sv.yaml | WRONG CODE
 | Tiếng Việt | vi.yaml |
 | Türkçe | tr.yaml |
 | Українська | uk.yaml |
-| 简体中文 | zh-cn.yaml |
-| 繁體中文 | zh-tw.yaml |
+| 简体中文 | zh-cn.yaml | WRONG CODE
+| 繁體中文 | zh-tw.yaml | WRONG CODE

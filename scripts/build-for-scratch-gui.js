@@ -1,36 +1,20 @@
 const fs = require('fs');
 const pathUtil = require('path');
 
-const YAML = require('./yaml');
+const Papa = require('papaparse');
 const {
-  LANGUAGES_DIR,
-  LANGUAGES,
-  OUT_DIR
+  inputDirectory,
+  translationsDirectory,
+  pathOfLanguage,
+  outputDirectory
 } = require('./common');
-const {validateLanguage} = require('./validate-lib');
 
-let valid = true;
-const validateErrorCallback = (error) => {
-  console.error(error.message);
-  valid = false;
-};
-
-const readLanguage = (lang) => {
-  const languageFile = pathUtil.join(LANGUAGES_DIR, `${lang}.yaml`);
-  const content = fs.readFileSync(languageFile, { encoding: 'utf8' });
-  validateLanguage(content, validateErrorCallback);
-  const parsedMessages = YAML.parse(content, {
-    prettyErrors: true
-  });
+const readTranslations = (path) => {
   const result = {};
-  for (const key of Object.keys(parsedMessages)) {
-    const value = parsedMessages[key];
-    const message = value.message;
-    const englishMessage = value.englishMessage;
-    // Do not write missing messages, or messages that are identical to their English translation.
-    if (message && message !== englishMessage) {
-      result[key] = message;
-    }
+  const content = fs.readFileSync(path, { encoding: 'utf8' });
+  const parsed = Papa.parse(content);
+  for (const [id, context, source, translation] of parsed.data) {
+    result[id] = translation;
   }
   return result;
 };
@@ -39,16 +23,18 @@ const result = {
   '__README__': 'Imported from https://github.com/TurboWarp/translations -- DO NOT EDIT BY HAND'
 };
 
-for (const lang of Object.keys(LANGUAGES)) {
-  console.log(`Processing ${lang}`);
-  const processed = readLanguage(lang);
-  result[lang] = processed;
+const languages = fs.readdirSync(translationsDirectory);
+for (const language of languages) {
+  if (language === 'en') {
+    continue;
+  }
+  console.log(`Processing ${language}`);
+  const translationFile = pathOfLanguage(language);
+  const messages = readTranslations(translationFile);
+  result[language] = messages;
+  console.log(messages);
 }
 
-console.log('Writing');
-fs.writeFileSync(pathUtil.join(OUT_DIR, 'translations.json'), JSON.stringify(result, null, 4));
-
-if (!valid) {
-  console.log('INVALID');
-  process.exit(1);
-}
+const outPath = pathUtil.join(outputDirectory, 'translations.json');
+console.log(`Writing translations to ${outPath}`);
+fs.writeFileSync(outPath, JSON.stringify(result, null, 4));

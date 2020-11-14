@@ -1,2 +1,0 @@
-- [ ] I am fluent in BOTH English and the language I am translating into
-- [ ] I have not significantly used machine translations (Google Translate)
