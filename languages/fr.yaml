@@ -37,11 +37,11 @@ tw.menuBar.advanced:
 tw.menuBar.hqpOff:
   englishMessage: Turn off High Quality Pen
   description: Menu bar item for turning off high quality pen
-  message: null
+  message: Désactiver le traçage de meilleur qualité du stylo
 tw.menuBar.hqpOn:
   englishMessage: Turn on High Quality Pen
   description: Menu bar item for turning on high quality pen
-  message: null
+  message: Activer le traçage de meilleur qualité du stylo
 tw.menuBar.compilerOff:
   englishMessage: Disable Compiler
   description: Menu bar item for disabling the compiler
@@ -53,11 +53,11 @@ tw.menuBar.compilerOn:
 tw.menuBar.warpTimerOff:
   englishMessage: Turn off Warp Timer (Stuck Checking)
   description: Menu bar item for turning off Warp Timer
-  message: null
+  message: Désactiver le Warp Timer (lecture dynamique)
 tw.menuBar.warpTimerOn:
   englishMessage: Turn on Warp Timer (Stuck Checking)
   description: Menu bar item for turning on Warp Timer
-  message: null
+  message: Activer le Warp Timer (lecture dynamique)
 tw.menuBar.help:
   englishMessage: Help
   description: Text for TurboWarp Help dropdown menu
@@ -69,7 +69,7 @@ tw.menuBar.code:
 tw.menuBar.feedback:
   englishMessage: Feedback & Bugs
   description: Menu bar item for feedback link
-  message: null
+  message: retour et signalement de bugues
 tw.menuBar.privacy:
   englishMessage: Privacy
   description: Menu bar item for privacy policy link
@@ -89,7 +89,7 @@ tw.giveFeedback:
 tw.unsavedChanges:
   englishMessage: Unsaved Changes
   description: Title bar link indicating unsaved changes
-  message: null
+  message: Non sauvegardé
 tw.menuBar.seeInside:
   englishMessage: See Inside
   description: Label for see inside button
@@ -97,7 +97,7 @@ tw.menuBar.seeInside:
 tw.home.instructions:
   englishMessage: Instructions
   description: Header for instructions section of description
-  message: null
+  message: Instructions
 tw.home.credit:
   englishMessage: Notes and Credits
   description: Header for notes and credits section of description
@@ -113,11 +113,11 @@ tw.featuredProjectsStudio:
 tw.framerateIndicator:
   englishMessage: "{framerate} FPS"
   description: Label indicating project framerate
-  message: null
+  message: FPS (frames par secondes)
 tw.alerts.warning:
   englishMessage: Turn on Warp Timer or disable compiler (in Advanced menu) while creating projects to avoid potential data loss. Also note that scripts may need to be restarted for changes to apply.
   description: Message warning user of potential data loss.
-  message: null
+  message: Activer le Warp Timer ou désactiver le compilateur (dans le menu avancé) pour créer un projet en évitant la perte de donnée. nessecite un redémarrage des scripts
 tw.gui.defaultProjectTitle:
   englishMessage: Project
   description: Default title for project
@@ -129,7 +129,7 @@ tw.home.description:
 tw.footer.disclaimer:
   englishMessage: Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
-  message: null
+  message: Les projets créé par Scratch sont licenciés par "the Creative Commons Attribution-ShareAlike 2.0 license". TurboWarp n'est pas affilié avec Scratch, la Scratch Team, ou la Scratch Foundation.
 tw.footer.host:
   englishMessage: Hosting for TurboWarp is provided by {fosshost}.
   description: Host credit
@@ -137,7 +137,7 @@ tw.footer.host:
 tw.footer.host.fosshost:
   englishMessage: fosshost.org
   description: Link to fosshost.org
-  message: null
+  message: fosshost.org
 tw.footer.source:
   englishMessage: Source Code
   description: Link to footer to source code
@@ -145,7 +145,7 @@ tw.footer.source:
 tw.footer.feedback:
   englishMessage: Feedback & Bugs
   description: Link in footer to give feedback
-  message: null
+  message: retour et signalement de bugues
 tw.footer.privacy:
   englishMessage: Privacy
   description: Link in footer to privacy policy
@@ -153,51 +153,51 @@ tw.footer.privacy:
 tw.loader.generic:
   englishMessage: Loading project …
   description: Initial generic loading message
-  message: null
+  message: Lecture du projet
 tw.loader.data:
   englishMessage: Loading project data …
   description: Appears when loading project data
-  message: null
+  message: Lecture des données du projet
 tw.loader.assets.known:
   englishMessage: Loading assets ({complete}/{total}) …
   description: Appears when loading project assets and amount of assets is known
-  message: null
+  message: Lecture complète des assets
 tw.loader.assets.unknown:
   englishMessage: Loading assets …
   description: Appears when loading project assets but amount of assets is unknown
-  message: null
+  message: Lecture des assets...
 tw.menuBar.advancedHelp:
   englishMessage: Advanced Settings Help
   description: Menu bar item for advanced settings help
-  message: null
+  message: Aide des options avancés
 tw.menuBar.translate:
   englishMessage: Help Translate TurboWarp
   description: Menu bar item for translating TurboWarp link
-  message: null
+  message: Aide pour traduire TurboWarp
 tw.examples.view:
   englishMessage: Click to view example projects.
   description: Text to view example projects
-  message: null
+  message: Cliquer pour voir des exemples de projets
 tw.examples.studioLink:
   englishMessage: View studio on Scratch.
   description: Link to turbowarp examples studio
-  message: null
+  message: Voir le studio dans Scratch
 tw.studioview.authorAttribution:
   englishMessage: by {author}
   description: Displayed in StudioView under project title to credit creator
-  message: null
+  message: Fait par {author}
 tw.studioview.hoverText:
   englishMessage: "{title} by {author}"
   description: Displayed in StudioView when hovering on a project
-  message: null
+  message: {title} fait par {author}
 tw.studioview.error:
   englishMessage: There was an error loading the next page of projects.
   description: Displayed in StudioView when an error occurs
-  message: null
+  message: Il y a eu une erreur dans le chargement de la page suivante des projets
 tw.usernamePrompt:
   englishMessage: |-
     Can't connect to cloud variables because username is invalid. You can change it in Edit > Change Username.
 
     It might be too long, contain invalid characters, or be used by someone else. (Current username: {username})
   description: Warning that appears when connecting to cloud variable server if the username is invalid
-  message: null
+  message: TurboWarp ne peut charger la variable cloud parce que le nom d'utilisateur est invalide. vous pouvez le changer dans Éditer > Changer le nom d'utilisateur
