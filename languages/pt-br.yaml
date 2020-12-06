@@ -105,11 +105,11 @@ tw.home.credit:
 tw.viewFeaturedProjects:
   englishMessage: Click to view featured projects.
   description: Text to view featured projects
-  message: Clique para ver projetos em destaque
+  message: Clique para ver projetos em destaque.
 tw.featuredProjectsStudio:
   englishMessage: View studio on Scratch.
   description: Link to turbowarp featured projects studio
-  message: Ver estúdio no Scratch
+  message: Ver estúdio no Scratch.
 tw.framerateIndicator:
   englishMessage: "{framerate} FPS"
   description: Label indicating project framerate
@@ -133,7 +133,7 @@ tw.footer.disclaimer:
 tw.footer.host:
   englishMessage: Hosting for TurboWarp is provided by {fosshost}.
   description: Host credit
-  message: Hospedagem para o TurboWarp oferecida por {fosshost}
+  message: Hospedagem para o TurboWarp oferecida por {fosshost}.
 tw.footer.host.fosshost:
   englishMessage: fosshost.org
   description: Link to fosshost.org
