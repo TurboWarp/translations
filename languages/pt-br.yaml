@@ -129,7 +129,7 @@ tw.home.description:
 tw.footer.disclaimer:
   englishMessage: Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
-  message: Projetos do site do Scratch são licenciados sob a licença Creative Commons Attribution-ShareAlike 2.0. O TurboWarp não tem filiação com o Scratch, a Equipe do Scratch, ou a Fundação Scratch.
+  message: Projetos do site do Scratch são licenciados sob a licença Creative Commons Attribution-ShareAlike 2.0. O TurboWarp não tem afiliação com o Scratch, a Equipe do Scratch, ou a Fundação Scratch.
 tw.footer.host:
   englishMessage: Hosting for TurboWarp is provided by {fosshost}.
   description: Host credit
