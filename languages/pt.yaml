@@ -1,203 +1,206 @@
 tw.gui.crashMessage.description:
   englishMessage: We are so sorry, but it looks like TurboWarp has crashed. Please refresh your page to try again.
   description: Message to inform the user that page has crashed.
-  message: null
+  message: Desculpe, parece que o TurboWarp deixou de funcionar. Por favor, atualize a página para tentar de novo.
 tw.loadingMessage:
   englishMessage: Loading project …
   description: Default loading message
-  message: null
+  message: Carregando projeto …
 tw.menuBar.60off:
   englishMessage: Turn off 60 FPS mode
   description: Menu bar item for turning off 60 FPS mode
-  message: null
+  message: Desligar modo 60 FPS
 tw.menuBar.60on:
   englishMessage: Turn on 60 FPS mode
   description: Menu bar item for turning on 60 FPS mode
-  message: null
+  message: Ligar modo 60 FPS
 tw.menuBar.changeUsername:
   englishMessage: Change Username
   description: Menu bar item for changing the username
-  message: null
+  message: Mudar nome de usuário
 tw.menuBar.cloudOff:
   englishMessage: Disable Cloud Variables
   description: Menu bar item for disabling cloud variables
-  message: null
+  message: Desligar variáveis de nuvem
 tw.menuBar.cloudOn:
   englishMessage: Enable Cloud Variables
   description: Menu bar item for enabling cloud variables
-  message: null
+  message: Ligar variáveis de nuvem
 tw.menuBar.cloudUnavailable:
   englishMessage: Cloud Variables are not Available
   description: Menu bar item for when cloud variables are not available
-  message: null
+  message: Variáveis de nuvem não estão disponíveis
 tw.menuBar.advanced:
   englishMessage: Advanced
   description: Text for advanced settings dropdown menu
-  message: null
+  message: Avançado
 tw.menuBar.hqpOff:
   englishMessage: Turn off High Quality Pen
   description: Menu bar item for turning off high quality pen
-  message: null
+  message: Desligar caneta de alta qualidade
 tw.menuBar.hqpOn:
   englishMessage: Turn on High Quality Pen
   description: Menu bar item for turning on high quality pen
-  message: null
+  message: Ligar caneta de alta qualidade
 tw.menuBar.compilerOff:
   englishMessage: Disable Compiler
   description: Menu bar item for disabling the compiler
-  message: null
+  message: Desligar compilador
 tw.menuBar.compilerOn:
   englishMessage: Enable Compiler
   description: Menu bar item for enabling the compiler
-  message: null
+  message: Ligar compilador
 tw.menuBar.warpTimerOff:
   englishMessage: Turn off Warp Timer (Stuck Checking)
   description: Menu bar item for turning off Warp Timer
-  message: null
+  message: Desligar Warp Timer (prevenção de crash)
 tw.menuBar.warpTimerOn:
   englishMessage: Turn on Warp Timer (Stuck Checking)
   description: Menu bar item for turning on Warp Timer
-  message: null
+  message: Ligar Warp Timer (prevenção de crash)
 tw.menuBar.help:
   englishMessage: Help
   description: Text for TurboWarp Help dropdown menu
-  message: null
+  message: Ajuda
 tw.menuBar.code:
   englishMessage: Source Code
   description: Menu bar item for source code link
-  message: null
+  message: Código fonte
 tw.menuBar.feedback:
   englishMessage: Feedback & Bugs
   description: Menu bar item for feedback link
-  message: null
+  message: Feedback e bugs
 tw.menuBar.privacy:
   englishMessage: Privacy
   description: Menu bar item for privacy policy link
-  message: null
+  message: Privacidade
 tw.menuBar.embed:
   englishMessage: Embedding
   description: Menu bar item for embedding link
-  message: null
+  message: Incorporação
 tw.menuBar.parameters:
   englishMessage: URL Parameters
   description: Menu bar item for URL parameters link
-  message: null
+  message: Parâmetros de URL
 tw.giveFeedback:
   englishMessage: Give Feedback
   description: Text for the giving feedback button
-  message: null
+  message: Dar feedback
 tw.unsavedChanges:
   englishMessage: Unsaved Changes
   description: Title bar link indicating unsaved changes
-  message: null
+  message: Mudanças não salvas
 tw.menuBar.seeInside:
   englishMessage: See Inside
   description: Label for see inside button
-  message: null
+  message: Ver por dentro
 tw.home.instructions:
   englishMessage: Instructions
   description: Header for instructions section of description
-  message: null
+  message: Instruções
 tw.home.credit:
   englishMessage: Notes and Credits
   description: Header for notes and credits section of description
-  message: null
+  message: Notas e Créditos
 tw.viewFeaturedProjects:
   englishMessage: Click to view featured projects.
   description: Text to view featured projects
-  message: null
+  message: Clique para ver projetos em destaque
 tw.featuredProjectsStudio:
   englishMessage: View studio on Scratch.
   description: Link to turbowarp featured projects studio
-  message: null
+  message: Ver estúdio no Scratch
 tw.framerateIndicator:
   englishMessage: "{framerate} FPS"
   description: Label indicating project framerate
-  message: null
+  message: "{framerate} FPS"
 tw.alerts.warning:
   englishMessage: Turn on Warp Timer or disable compiler (in Advanced menu) while creating projects to avoid potential data loss. Also note that scripts may need to be restarted for changes to apply.
   description: Message warning user of potential data loss.
-  message: null
+  message: Ligue o Warp Timer ou desligue o compilador (no menu Avançado) ao criar projetos para evitar possível perda de dados. Note que os scripts podem precisar ser reiniciados para que as mudanças sejam aplicadas.
 tw.gui.defaultProjectTitle:
   englishMessage: Project
   description: Default title for project
-  message: null
+  message: Projeto
 tw.home.description:
   englishMessage: TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.
   description: Description of TurboWarp
-  message: null
+  message: TurboWarp é um mod do Scratch que compila projetos para JavaScript para os executar bem rápido. Experimente colocando um ID ou URL de projeto acima ou escolhendo um dos projetos em destaque abaixo.
 tw.footer.disclaimer:
   englishMessage: Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.
   description: Disclaimer that TurboWarp is not connected to Scratch and licensing information
-  message: null
+  message: Projetos do site do Scratch são licenciados sob a licença Creative Commons Attribution-ShareAlike 2.0. O TurboWarp não tem afiliação com o Scratch, a Equipe do Scratch, ou a Fundação Scratch.
 tw.footer.host:
   englishMessage: Hosting for TurboWarp is provided by {fosshost}.
   description: Host credit
-  message: null
+  message: Hospedagem para o TurboWarp oferecida por {fosshost}
 tw.footer.host.fosshost:
   englishMessage: fosshost.org
   description: Link to fosshost.org
-  message: null
+  message: fosshost.org
 tw.footer.source:
   englishMessage: Source Code
   description: Link to footer to source code
-  message: null
+  message: Código fonte
 tw.footer.feedback:
   englishMessage: Feedback & Bugs
   description: Link in footer to give feedback
-  message: null
+  message: Feedback e bugs
 tw.footer.privacy:
   englishMessage: Privacy
   description: Link in footer to privacy policy
-  message: null
+  message: Privacidade
 tw.loader.generic:
   englishMessage: Loading project …
   description: Initial generic loading message
-  message: null
+  message: Carregando projeto …
 tw.loader.data:
   englishMessage: Loading project data …
   description: Appears when loading project data
-  message: null
+  message: Carregando dados do projeto …
 tw.loader.assets.known:
   englishMessage: Loading assets ({complete}/{total}) …
   description: Appears when loading project assets and amount of assets is known
-  message: null
+  message: Carregando recursos ({complete}/{total}) …
 tw.loader.assets.unknown:
   englishMessage: Loading assets …
   description: Appears when loading project assets but amount of assets is unknown
-  message: null
+  message: Carregando recursos …
 tw.menuBar.advancedHelp:
   englishMessage: Advanced Settings Help
   description: Menu bar item for advanced settings help
-  message: null
+  message: Sobre as configurações avançadas
 tw.menuBar.translate:
   englishMessage: Help Translate TurboWarp
   description: Menu bar item for translating TurboWarp link
-  message: null
+  message: Ajude a traduzir o TurboWarp
 tw.examples.view:
   englishMessage: Click to view example projects.
   description: Text to view example projects
-  message: null
+  message: Clique para ver projetos de exemplo.
 tw.examples.studioLink:
   englishMessage: View studio on Scratch.
   description: Link to turbowarp examples studio
-  message: null
+  message: Ver o estúdio no Scratch.
 tw.studioview.authorAttribution:
   englishMessage: by {author}
   description: Displayed in StudioView under project title to credit creator
-  message: null
+  message: por {author}
 tw.studioview.hoverText:
   englishMessage: "{title} by {author}"
   description: Displayed in StudioView when hovering on a project
-  message: null
+  message: "{title} por {author}"
 tw.studioview.error:
   englishMessage: There was an error loading the next page of projects.
   description: Displayed in StudioView when an error occurs
-  message: null
+  message: Erro ao carregar a próxima página de projetos.
 tw.usernamePrompt:
   englishMessage: |-
     Can't connect to cloud variables because username is invalid. You can change it in Edit > Change Username.
 
     It might be too long, contain invalid characters, or be used by someone else. (Current username: {username})
   description: Warning that appears when connecting to cloud variable server if the username is invalid
-  message: null
+  message: |-
+    Não foi possível conectar às variáveis de nuvem pois o nome de usuário é inválido. Você pode mudá-lo em Editar > Mudar nome de usuário.
+    
+    Pode ser porque ele é muito longo, contém caracteres inválidos, ou está sendo usado por outra pessoa. (Nome de usuário atual: {username})
