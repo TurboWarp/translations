@@ -141,63 +141,66 @@ tw.footer.host.fosshost:
 tw.footer.source:
   englishMessage: Source Code
   description: Link to footer to source code
-  message: null
+  message: Código fonte
 tw.footer.feedback:
   englishMessage: Feedback & Bugs
   description: Link in footer to give feedback
-  message: null
+  message: Feedback e bugs
 tw.footer.privacy:
   englishMessage: Privacy
   description: Link in footer to privacy policy
-  message: null
+  message: Privacidade
 tw.loader.generic:
   englishMessage: Loading project …
   description: Initial generic loading message
-  message: null
+  message: Carregando projeto …
 tw.loader.data:
   englishMessage: Loading project data …
   description: Appears when loading project data
-  message: null
+  message: Carregando dados do projeto …
 tw.loader.assets.known:
   englishMessage: Loading assets ({complete}/{total}) …
   description: Appears when loading project assets and amount of assets is known
-  message: null
+  message: Carregando recursos ({complete}/{total}) …
 tw.loader.assets.unknown:
   englishMessage: Loading assets …
   description: Appears when loading project assets but amount of assets is unknown
-  message: null
+  message: Carregando recursos …
 tw.menuBar.advancedHelp:
   englishMessage: Advanced Settings Help
   description: Menu bar item for advanced settings help
-  message: null
+  message: Sobre as configurações avançadas
 tw.menuBar.translate:
   englishMessage: Help Translate TurboWarp
   description: Menu bar item for translating TurboWarp link
-  message: null
+  message: Ajude a traduzir o TurboWarp
 tw.examples.view:
   englishMessage: Click to view example projects.
   description: Text to view example projects
-  message: null
+  message: Clique para ver projetos de exemplo.
 tw.examples.studioLink:
   englishMessage: View studio on Scratch.
   description: Link to turbowarp examples studio
-  message: null
+  message: Ver o estúdio no Scratch.
 tw.studioview.authorAttribution:
   englishMessage: by {author}
   description: Displayed in StudioView under project title to credit creator
-  message: null
+  message: por {author}
 tw.studioview.hoverText:
   englishMessage: "{title} by {author}"
   description: Displayed in StudioView when hovering on a project
-  message: null
+  message: "{title} por {author}"
 tw.studioview.error:
   englishMessage: There was an error loading the next page of projects.
   description: Displayed in StudioView when an error occurs
-  message: null
+  message: Erro ao carregar a próxima página de projetos.
 tw.usernamePrompt:
   englishMessage: |-
     Can't connect to cloud variables because username is invalid. You can change it in Edit > Change Username.
 
     It might be too long, contain invalid characters, or be used by someone else. (Current username: {username})
   description: Warning that appears when connecting to cloud variable server if the username is invalid
-  message: null
+  message: |-
+    Não foi possível conectar às variáveis na nuvem pois o nome de usuário é inválido. Você pode mudá-lo em Editar > Mudar nome de usuário.
+    
+    Pode ser porque ele é muito longo, contém caracteres inválidos, ou está sendo usado por outra pessoa. (Nome de usuário atual: {username})
