@@ -53,11 +53,11 @@ tw.menuBar.compilerOn:
 tw.menuBar.warpTimerOff:
   englishMessage: Turn off Warp Timer (Stuck Checking)
   description: Menu bar item for turning off Warp Timer
-  message: Desligar Warp Timer (prevenção de travamento)
+  message: Desligar Warp Timer (prevenção de crash)
 tw.menuBar.warpTimerOn:
   englishMessage: Turn on Warp Timer (Stuck Checking)
   description: Menu bar item for turning on Warp Timer
-  message: Ligar Warp Timer (prevenção de travamento)
+  message: Ligar Warp Timer (prevenção de crash)
 tw.menuBar.help:
   englishMessage: Help
   description: Text for TurboWarp Help dropdown menu
