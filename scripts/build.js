@@ -1,7 +1,6 @@
 const fs = require('fs');
 const pathUtil = require('path');
 
-const Papa = require('papaparse');
 const {
   translationsDirectory,
   outputDirectory
@@ -10,9 +9,9 @@ const {
 const readTranslations = (path) => {
   const result = {};
   const content = fs.readFileSync(path, { encoding: 'utf8' });
-  const parsed = Papa.parse(content);
-  for (const [id, context, message] of parsed.data) {
-    result[id] = message;
+  const parsed = JSON.parse(content);
+  for (const key of Object.keys(parsed)) {
+    result[key] = parsed[key].string;
   }
   return result;
 };
@@ -30,7 +29,7 @@ const processTranslations = (fileName) => {
 
     const path = pathUtil.join(translationsDirectory, language, fileName);
     if (!fs.existsSync(path)) {
-      console.warn(`${fileName}: Skipping ${language}`);
+      console.warn(`${fileName}: Skipping ${language} (not found)`);
       continue;
     }
 
@@ -51,7 +50,7 @@ const processTranslations = (fileName) => {
 };
 
 const processGUI = () => {
-  const messages = processTranslations('gui.csv');
+  const messages = processTranslations('gui.json');
   const result = {
     '__README__': 'Imported from https://github.com/TurboWarp/translations -- DO NOT EDIT BY HAND'
   };
@@ -60,7 +59,7 @@ const processGUI = () => {
 };
 
 const processSplash = () => {
-  const messages = processTranslations('splash.csv');
+  const messages = processTranslations('splash.json');
   const result = {};
   for (const language of Object.keys(messages)) {
     const languageMessages = messages[language];

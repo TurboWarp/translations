@@ -1,0 +1,14 @@
+{
+    "splash.title": {
+        "string": "Loading scripts",
+        "context": "Title displayed on splash screen"
+    },
+    "splash.subtitle": {
+        "string": "This may take a while …",
+        "context": "Subtitle displayed on splash screen"
+    },
+    "splash.troubleshooting": {
+        "string": "Troubleshooting",
+        "context": "Link to troubleshooting steps on splash screen"
+    }
+}

@@ -1,0 +1,238 @@
+{
+    "tw.gui.crashMessage.description": {
+        "string": "We are so sorry, but it looks like TurboWarp has crashed. Please refresh your page to try again.",
+        "context": "Message to inform the user that page has crashed."
+    },
+    "tw.loader.generic": {
+        "string": "Loading project …",
+        "context": "Initial generic loading message"
+    },
+    "tw.loader.data": {
+        "string": "Loading project data …",
+        "context": "Appears when loading project data"
+    },
+    "tw.loader.assets.known": {
+        "string": "Loading assets ({complete}/{total}) …",
+        "context": "Appears when loading project assets and amount of assets is known"
+    },
+    "tw.loader.assets.unknown": {
+        "string": "Loading assets …",
+        "context": "Appears when loading project assets but amount of assets is unknown"
+    },
+    "tw.menuBar.compileError": {
+        "string": "{sprite}: {error}",
+        "context": "Error message in error menu"
+    },
+    "tw.menuBar.reportError1": {
+        "string": "Some scripts could not be compiled.",
+        "context": "Link in error menu"
+    },
+    "tw.menuBar.reportError2": {
+        "string": "This is a bug. Please report it.",
+        "context": "Link in error menu"
+    },
+    "tw.menuBar.saveAs": {
+        "string": "Save as {file}",
+        "context": "Menu bar item to save project to an existing file on the user's computer"
+    },
+    "tw.menuBar.legacyDownloadToComputer": {
+        "string": "Save to your computer (legacy)",
+        "context": "Legacy menu bar item for downloading a project to your compute."
+    },
+    "tw.menuBar.60off": {
+        "string": "Turn off 60 FPS Mode",
+        "context": "Menu bar item for turning off 60 FPS mode"
+    },
+    "tw.menuBar.60on": {
+        "string": "Turn on 60 FPS Mode",
+        "context": "Menu bar item for turning on 60 FPS mode"
+    },
+    "tw.menuBar.changeUsername": {
+        "string": "Change Username",
+        "context": "Menu bar item for changing the username"
+    },
+    "tw.menuBar.cloudOff": {
+        "string": "Disable Cloud Variables",
+        "context": "Menu bar item for disabling cloud variables"
+    },
+    "tw.menuBar.cloudOn": {
+        "string": "Enable Cloud Variables",
+        "context": "Menu bar item for enabling cloud variables"
+    },
+    "tw.menuBar.cloudUnavailable": {
+        "string": "Cloud Variables are not Available",
+        "context": "Menu bar item for when cloud variables are not available"
+    },
+    "tw.menuBar.advanced": {
+        "string": "Advanced",
+        "context": "Text for advanced settings dropdown menu"
+    },
+    "tw.menuBar.advancedHelp": {
+        "string": "Advanced Settings Help",
+        "context": "Menu bar item for advanced settings help"
+    },
+    "tw.menuBar.hqpOff": {
+        "string": "Turn off High Quality Pen",
+        "context": "Menu bar item for turning off high quality pen"
+    },
+    "tw.menuBar.hqpOn": {
+        "string": "Turn on High Quality Pen",
+        "context": "Menu bar item for turning on high quality pen"
+    },
+    "tw.menuBar.infiniteClonesOff": {
+        "string": "Turn off Infinite Clones",
+        "context": "Menu bar item for turning off Infinite Clones"
+    },
+    "tw.menuBar.infiniteClonesOn": {
+        "string": "Turn on Infinite Clones",
+        "context": "Menu bar item for turning on Infinite Clones"
+    },
+    "tw.menuBar.warpTimerOff": {
+        "string": "Turn off Warp Timer (Stuck Checking)",
+        "context": "Menu bar item for turning off Warp Timer"
+    },
+    "tw.menuBar.warpTimerOn": {
+        "string": "Turn on Warp Timer (Stuck Checking)",
+        "context": "Menu bar item for turning on Warp Timer"
+    },
+    "tw.menuBar.compilerOff": {
+        "string": "Disable Compiler",
+        "context": "Menu bar item for disabling the compiler"
+    },
+    "tw.menuBar.compilerOn": {
+        "string": "Enable Compiler",
+        "context": "Menu bar item for enabling the compiler"
+    },
+    "tw.menuBar.help": {
+        "string": "Help",
+        "context": "Text for TurboWarp Help dropdown menu"
+    },
+    "tw.menuBar.code": {
+        "string": "Source Code",
+        "context": "Menu bar item for source code link"
+    },
+    "tw.menuBar.feedback": {
+        "string": "Feedback & Bugs",
+        "context": "Menu bar item for feedback link"
+    },
+    "tw.menuBar.privacy": {
+        "string": "Privacy",
+        "context": "Menu bar item for privacy policy link"
+    },
+    "tw.menuBar.embed": {
+        "string": "Embedding",
+        "context": "Menu bar item for embedding link"
+    },
+    "tw.menuBar.parameters": {
+        "string": "URL Parameters",
+        "context": "Menu bar item for URL parameters link"
+    },
+    "tw.menuBar.translate": {
+        "string": "Help Translate TurboWarp",
+        "context": "Menu bar item for translating TurboWarp link"
+    },
+    "tw.feedback": {
+        "string": "TurboWarp Feedback",
+        "context": "Text for the giving feedback button"
+    },
+    "tw.unsavedChanges": {
+        "string": "Unsaved Changes",
+        "context": "Title bar link indicating unsaved changes"
+    },
+    "tw.menuBar.seeInside": {
+        "string": "See inside",
+        "context": "Label for see inside button"
+    },
+    "tw.home.instructions": {
+        "string": "Instructions",
+        "context": "Header for instructions section of description"
+    },
+    "tw.home.credit": {
+        "string": "Notes and Credits",
+        "context": "Header for notes and credits section of description"
+    },
+    "tw.examples.view": {
+        "string": "Click to view example projects.",
+        "context": "Text to view example projects"
+    },
+    "tw.examples.studioLink": {
+        "string": "View studio on Scratch.",
+        "context": "Link to turbowarp examples studio"
+    },
+    "tw.viewFeaturedProjects": {
+        "string": "Click to view featured projects.",
+        "context": "Text to view featured projects"
+    },
+    "tw.featuredProjectsStudio": {
+        "string": "View studio on Scratch.",
+        "context": "Link to turbowarp featured projects studio"
+    },
+    "tw.framerateIndicator": {
+        "string": "{framerate} FPS",
+        "context": "Label indicating project framerate"
+    },
+    "tw.studioview.authorAttribution": {
+        "string": "by {author}",
+        "context": "Displayed in StudioView under project title to credit creator"
+    },
+    "tw.studioview.hoverText": {
+        "string": "{title} by {author}",
+        "context": "Displayed in StudioView when hovering on a project"
+    },
+    "tw.studioview.error": {
+        "string": "There was an error loading the next page of projects.",
+        "context": "Displayed in StudioView when an error occurs"
+    },
+    "tw.usernamePrompt": {
+        "string": "Can't connect to cloud variables because username is invalid. You can change it in Edit > Change Username.\n\nIt might be too long, contain invalid characters, or be used by someone else. (Current username: {username})",
+        "context": "Warning that appears when connecting to cloud variable server if the username is invalid"
+    },
+    "tw.fs.saveError": {
+        "string": "Could not save file. ({error})",
+        "context": "Error displayed when a file could not be saved"
+    },
+    "tw.alerts.warning": {
+        "string": "Turn on Warp Timer or disable compiler (in Advanced menu) while creating projects to avoid potential data loss. Also note that scripts may need to be restarted for changes to apply.",
+        "context": "Message warning user of potential data loss."
+    },
+    "tw.gui.defaultProjectTitle": {
+        "string": "Project",
+        "context": "Default title for project"
+    },
+    "tw.invalidParameters.fps": {
+        "string": "fps URL parameter is invalid",
+        "context": "Alert displayed when fps URL parameter is invalid"
+    },
+    "tw.invalidParameters.clones": {
+        "string": "clone URL parameter is invalid",
+        "context": "Alert displayed when clones URL parameter is invalid"
+    },
+    "tw.home.description": {
+        "string": "TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.",
+        "context": "Description of TurboWarp"
+    },
+    "tw.footer.disclaimer": {
+        "string": "Projects from the Scratch website are licensed under the Creative Commons Attribution-ShareAlike 2.0 license. TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.",
+        "context": "Disclaimer that TurboWarp is not connected to Scratch and licensing information"
+    },
+    "tw.footer.host": {
+        "string": "Hosting for TurboWarp is provided by {fosshost}.",
+        "context": "Host credit"
+    },
+    "tw.footer.host.fosshost": {
+        "string": "fosshost.org",
+        "context": "Link to fosshost.org"
+    },
+    "tw.footer.source": {
+        "string": "Source Code",
+        "context": "Link to footer to source code"
+    },
+    "tw.footer.feedback": {
+        "string": "Feedback & Bugs",
+        "context": "Link in footer to give feedback"
+    },
+    "tw.footer.privacy": {
+        "string": "Privacy",
+        "context": "Link in footer to privacy policy"
+    }
+}

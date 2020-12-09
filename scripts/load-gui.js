@@ -1,7 +1,6 @@
 const fs = require('fs');
 const pathUtil = require('path');
 
-const Papa = require('papaparse');
 const {
   translationsDirectory,
   inputDirectory
@@ -32,13 +31,16 @@ const readMessages = (path) => {
     .filter((message) => message.id.startsWith('tw.'));
 };
 
-const buildCSV = (messages) => {
-  const lines = [];
+const buildJSON = (messages) => {
+  const result = {};
   for (const id of Object.keys(messages)) {
     const {message, context} = messages[id];
-    lines.push([id, context, message]);
+    result[id] = {
+      string: message,
+      context
+    };
   }
-  return Papa.unparse(lines);
+  return JSON.stringify(result, null, 4);
 };
 
 const messageFiles = getAllFiles(inputDirectory);
@@ -62,8 +64,7 @@ for (const file of messageFiles) {
   }
 }
 
-const result = buildCSV(messages);
-
-const englishPath = pathUtil.join(translationsDirectory, 'en', 'gui.csv');
+const result = buildJSON(messages);
+const englishPath = pathUtil.join(translationsDirectory, 'en', 'gui.json');
 console.log(`Writing English translations to ${englishPath}`);
 fs.writeFileSync(englishPath, result);
