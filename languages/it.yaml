@@ -153,51 +153,55 @@ tw.footer.privacy:
 tw.loader.generic:
   englishMessage: Loading project …
   description: Initial generic loading message
-  message: null
+  message: Caricamento del progetto in corso …
 tw.loader.data:
   englishMessage: Loading project data …
   description: Appears when loading project data
-  message: null
+  message: Caricamento dati del progetto in corso …
 tw.loader.assets.known:
   englishMessage: Loading assets ({complete}/{total}) …
   description: Appears when loading project assets and amount of assets is known
-  message: null
+  message: Caricamento risorse ({complete}/{total}) …
 tw.loader.assets.unknown:
   englishMessage: Loading assets …
   description: Appears when loading project assets but amount of assets is unknown
-  message: null
+  message: Caricamento risorse …
 tw.menuBar.advancedHelp:
   englishMessage: Advanced Settings Help
   description: Menu bar item for advanced settings help
-  message: null
+  message: Aiuto Impostazioni Avanzate
 tw.menuBar.translate:
   englishMessage: Help Translate TurboWarp
   description: Menu bar item for translating TurboWarp link
-  message: null
+  message: Aiuta a Tradurre TurboWarp
 tw.examples.view:
   englishMessage: Click to view example projects.
   description: Text to view example projects
-  message: null
+  message: Clicca per vedere i progetti di esempio.
 tw.examples.studioLink:
   englishMessage: View studio on Scratch.
   description: Link to turbowarp examples studio
-  message: null
+  message: Vai alla galleria sul sito di Scratch.
 tw.studioview.authorAttribution:
   englishMessage: by {author}
   description: Displayed in StudioView under project title to credit creator
-  message: null
+  message: di {author}
 tw.studioview.hoverText:
   englishMessage: "{title} by {author}"
   description: Displayed in StudioView when hovering on a project
-  message: null
+  message: "{title} di {author}"
 tw.studioview.error:
   englishMessage: There was an error loading the next page of projects.
   description: Displayed in StudioView when an error occurs
-  message: null
+  message: Si è verificato un errore nel caricamento della pagina di progetti successiva.
 tw.usernamePrompt:
   englishMessage: |-
     Can't connect to cloud variables because username is invalid. You can change it in Edit > Change Username.
 
     It might be too long, contain invalid characters, or be used by someone else. (Current username: {username})
   description: Warning that appears when connecting to cloud variable server if the username is invalid
-  message: null
+  message: |-
+    Impossibile collegarsi al server della variabili cloud perché lo username non è valido. Puoi cambiarlo in Modifica > Cambia Username.
+
+    Lo username scelto potrebbe essere troppo lungo, potrebbe contenere caratteri non validi o essere già usato da altri. (Username attuale: {username})
+
