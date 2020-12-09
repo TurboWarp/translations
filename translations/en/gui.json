@@ -35,9 +35,9 @@
         "string": "Save as {file}",
         "context": "Menu bar item to save project to an existing file on the user's computer"
     },
-    "tw.menuBar.legacyDownloadToComputer": {
-        "string": "Save to your computer (legacy)",
-        "context": "Legacy menu bar item for downloading a project to your compute."
+    "tw.menuBar.downloadToComputerLegacyAppend": {
+        "string": "(legacy)",
+        "context": "Text that appears after 'Save project to your computer' on legacy button."
     },
     "tw.menuBar.60off": {
         "string": "Turn off 60 FPS Mode",
@@ -150,14 +150,6 @@
     "tw.home.credit": {
         "string": "Notes and Credits",
         "context": "Header for notes and credits section of description"
-    },
-    "tw.examples.view": {
-        "string": "Click to view example projects.",
-        "context": "Text to view example projects"
-    },
-    "tw.examples.studioLink": {
-        "string": "View studio on Scratch.",
-        "context": "Link to turbowarp examples studio"
     },
     "tw.viewFeaturedProjects": {
         "string": "Click to view featured projects.",
