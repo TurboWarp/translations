@@ -17,5 +17,8 @@
   },
   "homepage": "https://github.com/TurboWarp/translations#readme",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "async-limiter": "^2.0.0",
+    "node-fetch": "^2.6.1"
+  }
 }
