@@ -10,16 +10,22 @@ const httpsAgent = new https.Agent({
   keepAlive: true
 });
 
-const fetchAPI = async (path) => {
+const fetchAPI = async (path, options = {}) => {
   const url = `https://www.transifex.com/api/2/${path}`;
   console.log(` -> ${url}`);
-  const response = await fetch(url, {
+  const opts = {
+    ...options,
     headers: {
-      Authorization: `Basic ${Buffer.from(AUTHENTICATION).toString('base64')}`
+      Authorization: `Basic ${Buffer.from(AUTHENTICATION).toString('base64')}`,
+      ...(options.headers || {})
     },
     agent: httpsAgent
-  });
+  };
+  console.log(opts);
+  const response = await fetch(url, opts);
   if (response.status !== 200) {
+    // console.log(response);
+    console.log(await response.text())
     throw new Error(`Unexpected status code: ${response.status}`);
   }
   return await response.json();
@@ -45,8 +51,20 @@ const getResourceLanguages = async (resource) => {
   return result;
 };
 
+const uploadResource = async (resource, content) => {
+  return await fetchAPI(`project/${PROJECT}/resource/${resource}/content`, {
+    method: 'PUT',
+    headers: {
+      'content-type': 'application/json'
+    },
+    body: JSON.stringify({
+      content: JSON.stringify(content)
+    })
+  });
+};
+
 module.exports = {
   getTranslation,
-  getStats,
-  getResourceLanguages
+  getResourceLanguages,
+  uploadResource
 };
