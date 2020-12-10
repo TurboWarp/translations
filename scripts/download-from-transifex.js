@@ -15,13 +15,23 @@ const limiterDone = (limiter) => new Promise((resolve, reject) => {
   });
 });
 
-const removeEmptyMessages = (messages) => {
+const simplifyMessages = (messages, source) => {
   const result = {};
   for (const id of Object.keys(messages)) {
     const string = messages[id].string;
     if (string) {
-      result[id] = string;
+      if (string !== source[id].string) {
+        result[id] = string;
+      }
     }
+  }
+  return result;
+};
+
+const sortProperties = (obj) => {
+  const result = {};
+  for (const key of Object.keys(obj).sort()) {
+    result[key] = obj[key];
   }
   return result;
 };
@@ -30,6 +40,7 @@ const downloadAllLanguages = async (resource) => {
   console.log(`Downloading ${resource.replace('json', '.json')}`);
 
   const result = {};
+  const source = await getTranslation(resource, SOURCE_LANGUAGE);
   const languages = await getResourceLanguages(resource);
 
   const limiter = new Limiter({
@@ -38,13 +49,13 @@ const downloadAllLanguages = async (resource) => {
   for (const language of languages) {
     limiter.push(async (callback) => {
       const translations = await getTranslation(resource, language);
-      result[language] = removeEmptyMessages(translations);
+      result[language] = simplifyMessages(translations, source);
       callback();
     });
   }
   await limiterDone(limiter);
 
-  return result;
+  return sortProperties(result);
 };
 
 const processSplash = (translations) => {

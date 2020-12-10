@@ -67,6 +67,7 @@ const uploadResource = async (resource, content) => {
 };
 
 module.exports = {
+  SOURCE_LANGUAGE,
   getTranslation,
   getResourceLanguages,
   uploadResource
