@@ -21,7 +21,6 @@ const fetchAPI = async (path, options = {}) => {
     },
     agent: httpsAgent
   };
-  console.log(opts);
   const response = await fetch(url, opts);
   if (response.status !== 200) {
     // console.log(response);
