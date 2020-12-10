@@ -12,15 +12,16 @@ const httpsAgent = new https.Agent({
 
 const fetchAPI = async (path, options = {}) => {
   const url = `https://www.transifex.com/api/2/${path}`;
-  console.log(` -> ${url}`);
   const opts = {
     ...options,
+    method: options.method || "GET",
     headers: {
       Authorization: `Basic ${Buffer.from(AUTHENTICATION).toString('base64')}`,
       ...(options.headers || {})
     },
     agent: httpsAgent
   };
+  console.log(` -> ${opts.method} ${url}`);
   const response = await fetch(url, opts);
   if (response.status !== 200) {
     // console.log(response);

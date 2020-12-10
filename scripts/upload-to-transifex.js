@@ -55,4 +55,4 @@ for (const file of messageFiles) {
   }
 }
 
-uploadResource('testpleaseignore', messages)
+uploadResource('guijson', messages)
