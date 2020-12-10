@@ -1,57 +1,13 @@
 const Limiter = require('async-limiter');
-const fetch = require('node-fetch').default;
-const https = require('https');
 const fs = require('fs');
 const pathUtil = require('path');
 const {outputDirectory} = require('./common');
+const {
+  getTranslation,
+  getResourceLanguages
+} = require('./transifex');
 
-const API_TOKEN = process.env.TRANSIFEX_API_TOKEN;
-const AUTHENTICATION = `api:${API_TOKEN}`;
-const PROJECT = 'turbowarp';
 const SOURCE_LANGUAGE = 'en';
-
-// Re-use a single request agent with keepalive for performance.
-const httpsAgent = new https.Agent({
-  keepAlive: true
-});
-
-const fetchAPI = async (path) => {
-  const url = `https://www.transifex.com/api/2/${path}`;
-  console.log(` -> ${url}`);
-  const response = await fetch(url, {
-    headers: {
-      Authorization: `Basic ${Buffer.from(AUTHENTICATION).toString('base64')}`
-    },
-    agent: httpsAgent
-  });
-  if (response.status !== 200) {
-    throw new Error(`Unexpected status code: ${response.status}`);
-  }
-  return await response.json();
-};
-
-const getProjectDetails = async () => {
-  return await fetchAPI(`project/${PROJECT}?details`);
-};
-
-const getTranslation = async (resource, language) => {
-  const raw = (await fetchAPI(`project/${PROJECT}/resource/${resource}/translation/${language}?mode=onlytranslated`)).content;
-  return JSON.parse(raw);
-};
-
-const getStats = async (resource) => {
-  return await fetchAPI(`project/${PROJECT}/resource/${resource}/stats`);
-};
-
-const getLanguagesToDownload = (stats) => {
-  const result = [];
-  for (const language of Object.keys(stats)) {
-    if (stats[language].translated_words > 0) {
-      result.push(language);
-    }
-  }
-  return result;
-};
 
 const limiterDone = (limiter) => new Promise((resolve, reject) => {
   limiter.onDone(() => {
@@ -72,8 +28,7 @@ const removeEmptyMessages = (messages) => {
 
 const downloadAllLanguages = async (resource) => {
   const result = {};
-  const stats = await getStats(resource);
-  const languages = getLanguagesToDownload(stats);
+  const languages = await getResourceLanguages(resource);
 
   const limiter = new Limiter({
     concurrency: 5
@@ -124,24 +79,11 @@ const processGUI = (translations) => {
 };
 
 (async () => {
-  const project = await getProjectDetails();
+  const guiMessages = await downloadAllLanguages('guijson');
+  const splashMessages = await downloadAllLanguages('splashjson');
 
-  /** @type {{slug: string; name: string}[]} */
-  const resources = project.resources;
-
-  for (const resource of resources) {
-    console.log(`Processing resource: ${resource.name}`);
-
-    const translations = await downloadAllLanguages(resource.slug);
-
-    if (resource.slug === 'splashjson') {
-      await processSplash(translations);
-    } else if (resource.slug === 'guijson') {
-      await processGUI(translations);
-    } else {
-      throw new Error(`Unknown resource slug: ${resource.slug}`);
-    }
-  }
+  processGUI(guiMessages);
+  processSplash(splashMessages);
 })().catch((err) => {
   console.error(err);
   process.exit(1);
