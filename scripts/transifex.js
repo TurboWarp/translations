@@ -5,6 +5,7 @@ require('dotenv').config();
 const API_TOKEN = process.env.TRANSIFEX_API_TOKEN;
 const AUTHENTICATION = `api:${API_TOKEN}`;
 const PROJECT = 'turbowarp';
+const SOURCE_LANGUAGE = 'en';
 
 // Re-use a single request agent with keepalive for performance.
 const httpsAgent = new https.Agent({
@@ -45,7 +46,7 @@ const getResourceLanguages = async (resource) => {
   const stats = await getStats(resource);
   const result = [];
   for (const language of Object.keys(stats)) {
-    if (stats[language].translated_words > 0) {
+    if (stats[language].translated_words > 0 && language !== SOURCE_LANGUAGE) {
       result.push(language);
     }
   }

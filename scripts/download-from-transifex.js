@@ -27,6 +27,8 @@ const removeEmptyMessages = (messages) => {
 };
 
 const downloadAllLanguages = async (resource) => {
+  console.log(`Downloading ${resource.replace('json', '.json')}`);
+
   const result = {};
   const languages = await getResourceLanguages(resource);
 
@@ -69,10 +71,8 @@ const processGUI = (translations) => {
     '__README__': 'Imported from https://github.com/TurboWarp/translations -- DO NOT EDIT BY HAND'
   };
   for (const language of Object.keys(translations)) {
-    if (language !== SOURCE_LANGUAGE) {
-      const scratchLanguage = language.toLowerCase().replace(/_/g, '-');
-      result[scratchLanguage] = translations[language];
-    }
+    const scratchLanguage = language.toLowerCase().replace(/_/g, '-');
+    result[scratchLanguage] = translations[language];
   }
   const path = pathUtil.join(outputDirectory, 'gui.json');
   fs.writeFileSync(path, JSON.stringify(result, null, 4));
