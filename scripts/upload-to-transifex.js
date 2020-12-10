@@ -1,13 +1,7 @@
 const fs = require('fs');
 const pathUtil = require('path');
-
-const {
-  inputDirectory
-} = require('./common');
-
-const {
-  uploadResource
-} = require('./transifex');
+const {inputDirectory} = require('./common');
+const {uploadResource} = require('./transifex');
 
 const getAllFiles = (directory) => {
   const children = fs.readdirSync(directory);
@@ -56,3 +50,6 @@ for (const file of messageFiles) {
 }
 
 uploadResource('guijson', messages)
+  .then((response) => {
+    console.log(response);
+  });

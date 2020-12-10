@@ -1,5 +1,6 @@
 const fetch = require('node-fetch').default;
 const https = require('https');
+require('dotenv').config();
 
 const API_TOKEN = process.env.TRANSIFEX_API_TOKEN;
 const AUTHENTICATION = `api:${API_TOKEN}`;
