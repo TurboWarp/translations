@@ -50,6 +50,7 @@ const getResourceLanguages = async (resource) => {
       result.push(language);
     }
   }
+  result.sort();
   return result;
 };
 
