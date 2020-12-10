@@ -31,18 +31,6 @@ const readMessages = (path) => {
     .filter((message) => message.id.startsWith('tw.'));
 };
 
-const buildJSON = (messages) => {
-  const result = {};
-  for (const id of Object.keys(messages)) {
-    const {message, context} = messages[id];
-    result[id] = {
-      string: message,
-      context
-    };
-  }
-  return JSON.stringify(result, null, 4);
-};
-
 const messageFiles = getAllFiles(inputDirectory);
 const messages = {};
 
@@ -58,13 +46,13 @@ for (const file of messageFiles) {
   for (const message of processed) {
     const {id, defaultMessage, description} = message;
     messages[id] = {
-      message: defaultMessage,
+      string: defaultMessage,
       context: description
     };
   }
 }
 
-const result = buildJSON(messages);
+const result = JSON.stringify(messages, null, 4);
 const englishPath = pathUtil.join(translationsDirectory, 'en', 'gui.json');
 console.log(`Writing English translations to ${englishPath}`);
 fs.writeFileSync(englishPath, result);

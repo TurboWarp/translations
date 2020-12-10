@@ -11,4 +11,4 @@ cd $start
 mkdir -p in
 cp -r ../scratch-gui/translations/messages/src/ in
 
-node scripts/load-from-scratch-gui.js
+node scripts/load-gui.js

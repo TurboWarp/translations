@@ -107,17 +107,13 @@
         "string": "Help",
         "context": "Text for TurboWarp Help dropdown menu"
     },
-    "tw.menuBar.code": {
+    "tw.code": {
         "string": "Source Code",
-        "context": "Menu bar item for source code link"
+        "context": "Link to source code"
     },
-    "tw.menuBar.feedback": {
-        "string": "Feedback & Bugs",
-        "context": "Menu bar item for feedback link"
-    },
-    "tw.menuBar.privacy": {
+    "tw.privacy": {
         "string": "Privacy",
-        "context": "Menu bar item for privacy policy link"
+        "context": "Link to privacy policy"
     },
     "tw.menuBar.embed": {
         "string": "Embedding",
@@ -131,9 +127,9 @@
         "string": "Help Translate TurboWarp",
         "context": "Menu bar item for translating TurboWarp link"
     },
-    "tw.feedback": {
+    "tw.feedbackButton": {
         "string": "TurboWarp Feedback",
-        "context": "Text for the giving feedback button"
+        "context": "Button to give feedback in the menu bar"
     },
     "tw.unsavedChanges": {
         "string": "Unsaved Changes",
@@ -215,16 +211,8 @@
         "string": "fosshost.org",
         "context": "Link to fosshost.org"
     },
-    "tw.footer.source": {
-        "string": "Source Code",
-        "context": "Link to footer to source code"
-    },
-    "tw.footer.feedback": {
+    "tw.feedback": {
         "string": "Feedback & Bugs",
-        "context": "Link in footer to give feedback"
-    },
-    "tw.footer.privacy": {
-        "string": "Privacy",
-        "context": "Link in footer to privacy policy"
+        "context": "Link to feedback/bugs page"
     }
 }
