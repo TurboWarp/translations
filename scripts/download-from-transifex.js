@@ -17,7 +17,7 @@ const limiterDone = (limiter) => new Promise((resolve, reject) => {
 
 const simplifyMessages = (messages, source) => {
   const result = {};
-  for (const id of Object.keys(messages)) {
+  for (const id of Object.keys(messages).sort()) {
     const string = messages[id].string;
     if (string) {
       if (string !== source[id].string) {
