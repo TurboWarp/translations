@@ -3,10 +3,10 @@ name: Join translation team
 about: Request to become a translator
 title: ''
 labels: request to join
-assignees: GarboMuffin
+assignees: ''
 
 ---
 
-Transifex username: 
+**Transifex username:** 
 
-Language(s):
+**Languages you want to translate into:** 
