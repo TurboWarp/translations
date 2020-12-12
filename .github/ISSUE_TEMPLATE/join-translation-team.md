@@ -2,7 +2,7 @@
 name: Join translation team
 about: Request to become a translator
 title: ''
-labels: ''
+labels: request to join
 assignees: GarboMuffin
 
 ---
