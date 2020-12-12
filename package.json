@@ -4,7 +4,8 @@
   "description": "Translations for TurboWarp.org",
   "main": "index.js",
   "scripts": {
-    "build": "node scripts/build-for-scratch-gui.js"
+    "download": "node scripts/download-from-transifex.js",
+    "upload": "node scripts/upload-to-transifex.js"
   },
   "repository": {
     "type": "git",
