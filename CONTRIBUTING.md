@@ -6,7 +6,7 @@ Create a new discussion if you have questions following this guide: https://gith
 
 ### Requirements
 
- - You must have a GitHub account. This also means you must be at least 13 years old.
+ - You must have a GitHub account. Note that the GitHub ToS says you must be 13 years old.
  - You must be fluent in both English and another language (or even multiple languages).
  - Each language must already be [part of Scratch](languages.md).
  - This isn't expected to be a large time commitment. The initial translation for new languages might take ~20 minutes. The recurring time commitment shouldn't more than a few minutes per week.
