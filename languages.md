@@ -1,0 +1,65 @@
+These are the non-English languages that Scratch supports:
+
+ - Аҧсшәа
+ - العربية
+ - አማርኛ
+ - Azeri
+ - Bahasa Indonesia
+ - Беларуская
+ - Български
+ - Català
+ - Česky
+ - Cymraeg
+ - Dansk
+ - Deutsch
+ - Eesti
+ - Ελληνικά
+ - Español
+ - Español Latinoamericano
+ - Euskara
+ - فارسی
+ - Français
+ - Gaeilge
+ - Gàidhlig
+ - Galego
+ - 한국어
+ - Հայերեն
+ - עִבְרִית
+ - Hrvatski
+ - isiZulu
+ - Íslenska
+ - Italiano
+ - ქართული ენა
+ - Kiswahili
+ - Kreyòl ayisyen
+ - Kurdî
+ - کوردیی ناوەندی
+ - Latviešu
+ - Lietuvių
+ - Magyar
+ - Māori
+ - Монгол хэл
+ - Nederlands
+ - 日本語
+ - にほんご
+ - Norsk Bokmål
+ - Norsk Nynorsk
+ - Oʻzbekcha
+ - ไทย
+ - ភាសាខ្មែរ
+ - Polski
+ - Português
+ - Português Brasileiro
+ - Rapa Nui
+ - Română
+ - Русский
+ - Српски
+ - Slovenčina
+ - Slovenščina
+ - Suomi
+ - Svenska
+ - Tiếng Việt
+ - Türkçe
+ - Українська
+ - 简体中文
+ - 繁體中文

@@ -9,4 +9,6 @@ assignees: ''
 
 **Transifex username:** 
 
+**Scratch username (optional; may be used to credit you later):** 
+
 **Languages you want to translate into:** 
