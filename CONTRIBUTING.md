@@ -22,6 +22,6 @@ Create a new discussion if you have questions following this guide: https://gith
 
 When your request is accepted, you will get an invitation from Transifex to join the translation team. Accept it. You're now ready to start translating.
 
-Find your language on https://www.transifex.com/turbowarp/turbowarp/languages/ and click the Translate button.
+Find your language on https://www.transifex.com/turbowarp/turbowarp/dashboard/ and click the Translate button.
 
 Read https://docs.transifex.com/translation/translating-with-the-web-editor to learn how to use the Transifex translator. It's a lot simpler than it looks.
