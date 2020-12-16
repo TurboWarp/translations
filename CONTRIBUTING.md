@@ -1,6 +1,6 @@
 We're looking for people to help translate TurboWarp into languages other than English. If that interests you, read on.
 
-Create a new discussion if you have questions following this guide: https://github.com/TurboWarp/translations/discussions/new
+Create a new discussion if you have questions following this guide: [Create a discussion](https://github.com/TurboWarp/translations/discussions/new)
 
 ## Joining the translation team
 
