@@ -78,9 +78,7 @@ const processSplash = (translations) => {
 };
 
 const processGUI = (translations) => {
-  const result = {
-    '__README__': 'Imported from https://github.com/TurboWarp/translations -- DO NOT EDIT BY HAND'
-  };
+  const result = {};
   for (const language of Object.keys(translations)) {
     const scratchLanguage = language.toLowerCase().replace(/_/g, '-');
     result[scratchLanguage] = translations[language];
