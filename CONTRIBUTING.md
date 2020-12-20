@@ -21,6 +21,7 @@ Create a new discussion if you have questions following this guide: https://gith
  - Create an issue using this template: https://github.com/TurboWarp/translations/issues/new?labels=request+to+join&template=join-translation-team.md
  - Subscribe to this GitHub issue: https://github.com/TurboWarp/translations/issues/27
  - It may take a few days for requests to be reviewed.
+ - Wait for request to be accepted before continuing.
 
 ### Writing translations
 
