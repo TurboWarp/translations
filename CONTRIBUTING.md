@@ -14,7 +14,7 @@ Create a new discussion if you have questions following this guide: https://gith
 ### Request to join
 
  - Make a [Transifex](https://www.transifex.com/signup/) account. You can use your GitHub account if you'd like.
-   - The name you enter will be public, so don't enter your real name if you don't want that.
+   - The name you enter will be effectively public regardless of whether you tell Transifex to make your profile public, so don't enter your real name if you don't want that to be public.
    - When it asks about department, you can use "Localization" and "Individual contributor"
    - Choose "Join an existing project"
    - Do not send a request to join through Transifex -- follow the steps below.
