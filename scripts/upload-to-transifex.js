@@ -28,28 +28,54 @@ const readMessages = (path) => {
     .filter((message) => message.id.startsWith('tw.'));
 };
 
-const messageFiles = getAllFiles(inputDirectory);
-const messages = {};
-
-for (const file of messageFiles) {
-  if (!file.endsWith('.json')) {
-    console.warn(`Skipping ${file}: not json`);
-    continue;
+const parseGUIMessages = () => {
+  const messageFiles = getAllFiles(inputDirectory).filter((file) => file.endsWith('.json'));
+  const messages = {};
+  
+  for (const file of messageFiles) {
+    const path = pathUtil.join(inputDirectory, file);
+    const processed = readMessages(path);
+  
+    for (const message of processed) {
+      const {id, defaultMessage, description} = message;
+      messages[id] = {
+        string: defaultMessage,
+        context: description
+      };
+    }
   }
 
-  const path = pathUtil.join(inputDirectory, file);
-  const processed = readMessages(path);
+  return messages;
+};
 
-  for (const message of processed) {
-    const {id, defaultMessage, description} = message;
+const parseBlocksMessages = () => {
+  const path = pathUtil.join(inputDirectory, 'tw.js');
+  const messages = {};
+  const content = fs.readFileSync(path).toString();
+  const matches = content.match(/formatMessage\({[\s\S]+?}/g);
+  for (const match of matches) {
+    const json = match.match(/{[\s\S]+?}/)[0];
+    // I hate this.
+    const parsedMessage = eval(`(${json})`);
+    const {id, default: def, description} = parsedMessage;
     messages[id] = {
-      string: defaultMessage,
+      string: def,
       context: description
     };
   }
-}
+  return messages;
+};
 
-uploadResource('guijson', messages)
+const guijson = {
+  ...parseGUIMessages(),
+  ...parseBlocksMessages()
+};
+
+uploadResource('guijson', guijson)
   .then((response) => {
     console.log(response);
+  })
+  .catch((err) => {
+    console.error(err);
+    process.exit(1);
   });

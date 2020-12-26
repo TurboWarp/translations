@@ -11,6 +11,7 @@ cd $start
 rm -r in
 mkdir -p in
 cp -r ../scratch-gui/translations/messages/src/ in
+cp ../scratch-vm/src/extensions/tw/index.js in/tw.js
 
 echo DONE
 read
