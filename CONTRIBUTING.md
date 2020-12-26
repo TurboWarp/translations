@@ -14,13 +14,14 @@ Create a new discussion if you have questions following this guide: https://gith
 ### Request to join
 
  - Make a [Transifex](https://www.transifex.com/signup/) account. You can use your GitHub account if you'd like.
-   - The name you enter will be public, so don't enter your real name if you don't want that.
+   - The name you enter will be effectively public regardless of whether you tell Transifex to make your profile public, so don't enter your real name if you don't want that to be public.
    - When it asks about department, you can use "Localization" and "Individual contributor"
    - Choose "Join an existing project"
    - Do not send a request to join through Transifex -- follow the steps below.
  - Create an issue using this template: https://github.com/TurboWarp/translations/issues/new?labels=request+to+join&template=join-translation-team.md
  - Subscribe to this GitHub issue: https://github.com/TurboWarp/translations/issues/27
  - It may take a few days for requests to be reviewed.
+ - Wait for request to be accepted before continuing.
 
 ### Writing translations
 
