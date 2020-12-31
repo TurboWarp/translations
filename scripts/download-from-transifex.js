@@ -66,7 +66,8 @@ const processSplash = (translations) => {
     const subtitle = messages['splash.subtitle'];
     const troubleshooting = messages['splash.troubleshooting'];
     if (title && subtitle && troubleshooting) {
-      result[language] = [
+      const parsedLanguage = language.replace('_', '-').toLowerCase();
+      result[parsedLanguage] = [
         title,
         subtitle,
         troubleshooting
