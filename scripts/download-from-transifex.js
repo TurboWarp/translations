@@ -18,7 +18,7 @@ const limiterDone = (limiter) => new Promise((resolve, reject) => {
 const simplifyMessages = (messages, source) => {
   const result = {};
   for (const id of Object.keys(messages).sort()) {
-    const string = messages[id].string;
+    const string = typeof messages[id] === 'string' ? messages[id] : messages[id].string;
     if (string) {
       if (string !== source[id].string) {
         result[id] = string;
@@ -88,12 +88,24 @@ const processGUI = (translations) => {
   fs.writeFileSync(path, JSON.stringify(result, null, 4));
 };
 
+const processAddons = (translations) => {
+  const result = {};
+  for (const language of Object.keys(translations)) {
+    const scratchLanguage = language.toLowerCase().replace(/_/g, '-');
+    result[scratchLanguage] = translations[language];
+  }
+  const path = pathUtil.join(outputDirectory, 'addons.json');
+  fs.writeFileSync(path, JSON.stringify(result, null, 4));
+};
+
 (async () => {
   const guiMessages = await downloadAllLanguages('guijson');
   const splashMessages = await downloadAllLanguages('splashjson');
+  const addonMessages = await downloadAllLanguages('addonsjson');
 
   processGUI(guiMessages);
   processSplash(splashMessages);
+  processAddons(addonMessages);
 })().catch((err) => {
   console.error(err);
   process.exit(1);
