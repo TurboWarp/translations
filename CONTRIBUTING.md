@@ -9,7 +9,7 @@ Create a new discussion if you have questions following this guide: https://gith
  - You must have a GitHub account. Note that the GitHub ToS says you must be 13 years old.
  - You must be fluent in both English and another language (or even multiple languages).
  - Each language must already be [part of Scratch](https://github.com/TurboWarp/translations/blob/master/languages.md#readme).
- - This isn't expected to be a large time commitment. The initial translation for new languages might take ~20 minutes. The recurring time commitment shouldn't more than a few minutes per week.
+ - The initial translation for new languages might take ~30 minutes. Please check occasionally (once a week is enough) to translate any newly added strings. This isn't expected to be a large time commitment. Don't lose sleep over this.
 
 ### Request to join
 
