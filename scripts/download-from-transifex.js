@@ -98,14 +98,26 @@ const processAddons = (translations) => {
   fs.writeFileSync(path, JSON.stringify(result, null, 4));
 };
 
+const processDesktop = (translations) => {
+  const result = {};
+  for (const language of Object.keys(translations)) {
+    const scratchLanguage = language.toLowerCase().replace(/_/g, '-');
+    result[scratchLanguage] = translations[language];
+  }
+  const path = pathUtil.join(outputDirectory, 'desktop.json');
+  fs.writeFileSync(path, JSON.stringify(result, null, 4));
+};
+
 (async () => {
   const guiMessages = await downloadAllLanguages('guijson');
   const splashMessages = await downloadAllLanguages('splashjson');
   const addonMessages = await downloadAllLanguages('addonsjson');
+  const desktopMessages = await downloadAllLanguages('desktopjson');
 
   processGUI(guiMessages);
   processSplash(splashMessages);
   processAddons(addonMessages);
+  processDesktop(desktopMessages);
 })().catch((err) => {
   console.error(err);
   process.exit(1);

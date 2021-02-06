@@ -4,6 +4,7 @@ set -e
 
 cp out/gui.json ../scratch-gui/src/lib/tw-translations/translations.json
 cp out/addons.json ../scratch-gui/src/addons/settings/l10n/translations.json
+cp out/desktop.json ../turbowarp-desktop/src/l10n/translations.json
 
 [[ "$(cat ../scratch-gui/src/playground/index.ejs)" =~ JSON\.parse\(\'{.+}\'\)\; ]]
 old="${BASH_REMATCH[0]}"
