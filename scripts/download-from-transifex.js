@@ -37,8 +37,6 @@ const sortProperties = (obj) => {
 };
 
 const downloadAllLanguages = async (resource) => {
-  console.log(`Downloading ${resource.replace('json', '.json')}`);
-
   const result = {};
   const source = await getTranslation(resource, SOURCE_LANGUAGE);
   const languages = await getResourceLanguages(resource);
@@ -109,10 +107,17 @@ const processDesktop = (translations) => {
 };
 
 (async () => {
-  const guiMessages = await downloadAllLanguages('guijson');
-  const splashMessages = await downloadAllLanguages('splashjson');
-  const addonMessages = await downloadAllLanguages('addonsjson');
-  const desktopMessages = await downloadAllLanguages('desktopjson');
+  const [
+    guiMessages,
+    splashMessages,
+    addonMessages,
+    desktopMessages
+  ] = await Promise.all([
+    downloadAllLanguages('guijson'),
+    downloadAllLanguages('splashjson'),
+    downloadAllLanguages('addonsjson'),
+    downloadAllLanguages('desktopjson'),
+  ]);
 
   processGUI(guiMessages);
   processSplash(splashMessages);

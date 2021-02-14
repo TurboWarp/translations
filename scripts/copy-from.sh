@@ -5,6 +5,7 @@ set -e
 start=$(pwd)
 
 cd ../scratch-gui
+rm -r translations
 npm run build
 
 cd $start
