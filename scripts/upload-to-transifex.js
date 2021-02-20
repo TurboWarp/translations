@@ -66,9 +66,17 @@ const parseBlocksMessages = () => {
   return messages;
 };
 
+const hardcodedMessages = {
+  'tw.blocks.openDocs': {
+    string: 'Open Documentation',
+    context: 'Button to open extensions docsURI'
+  }
+};
+
 const guijson = {
   ...parseGUIMessages(),
-  ...parseBlocksMessages()
+  ...parseBlocksMessages(),
+  ...hardcodedMessages
 };
 
 uploadResource('guijson', guijson)
