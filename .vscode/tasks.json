@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "download-and-copy",
+			"problemMatcher": [],
+			"label": "download and copy translations",
+			"detail": "npm run download-and-copy"
+		}
+	]
+}
