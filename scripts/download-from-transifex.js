@@ -106,23 +106,36 @@ const processDesktop = (translations) => {
   fs.writeFileSync(path, JSON.stringify(result, null, 4));
 };
 
+const processDesktopWeb = (translations) => {
+  const result = {};
+  for (const language of Object.keys(translations)) {
+    const scratchLanguage = language.toLowerCase().replace(/_/g, '-');
+    result[scratchLanguage] = translations[language];
+  }
+  const path = pathUtil.join(outputDirectory, 'desktop-web.json');
+  fs.writeFileSync(path, JSON.stringify(result, null, 4));
+};
+
 (async () => {
   const [
     guiMessages,
     splashMessages,
     addonMessages,
-    desktopMessages
+    desktopMessages,
+    desktopWebMessages
   ] = await Promise.all([
     downloadAllLanguages('guijson'),
     downloadAllLanguages('splashjson'),
     downloadAllLanguages('addonsjson'),
     downloadAllLanguages('desktopjson'),
+    downloadAllLanguages('desktop-webjson')
   ]);
 
   processGUI(guiMessages);
   processSplash(splashMessages);
   processAddons(addonMessages);
   processDesktop(desktopMessages);
+  processDesktopWeb(desktopWebMessages);
 })().catch((err) => {
   console.error(err);
   process.exit(1);
