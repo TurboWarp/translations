@@ -28,10 +28,11 @@ const simplifyMessages = (messages, source) => {
   return result;
 };
 
-const sortProperties = (obj) => {
+const processTranslations = (obj) => {
   const result = {};
   for (const key of Object.keys(obj).sort()) {
-    result[key] = obj[key];
+    const newKey = key.replace('_', '-').toLowerCase();
+    result[newKey] = obj[key];
   }
   return result;
 };
@@ -53,7 +54,18 @@ const downloadAllLanguages = async (resource) => {
   }
   await limiterDone(limiter);
 
-  return sortProperties(result);
+  return processTranslations(result);
+};
+
+const writeToOutFile = (file, json) => {
+  const path = pathUtil.join(outputDirectory, file);
+  let out;
+  if (typeof json === 'string') {
+    out = json;
+  } else {
+    out = JSON.stringify(json, null, 4);
+  }
+  fs.writeFileSync(path, out);
 };
 
 const processSplash = (translations) => {
@@ -64,56 +76,30 @@ const processSplash = (translations) => {
     const subtitle = messages['splash.subtitle'];
     const troubleshooting = messages['splash.troubleshooting'];
     if (title && subtitle && troubleshooting) {
-      const parsedLanguage = language.replace('_', '-').toLowerCase();
-      result[parsedLanguage] = [
+      result[language] = [
         title,
         subtitle,
         troubleshooting
       ];
     }
   }
-  const path = pathUtil.join(outputDirectory, 'splash.json');
-  fs.writeFileSync(path, JSON.stringify(result));
+  writeToOutFile('splash.json', JSON.stringify(result));
 };
 
 const processGUI = (translations) => {
-  const result = {};
-  for (const language of Object.keys(translations)) {
-    const scratchLanguage = language.toLowerCase().replace(/_/g, '-');
-    result[scratchLanguage] = translations[language];
-  }
-  const path = pathUtil.join(outputDirectory, 'gui.json');
-  fs.writeFileSync(path, JSON.stringify(result, null, 4));
+  writeToOutFile('gui.json', translations);
 };
 
 const processAddons = (translations) => {
-  const result = {};
-  for (const language of Object.keys(translations)) {
-    const scratchLanguage = language.toLowerCase().replace(/_/g, '-');
-    result[scratchLanguage] = translations[language];
-  }
-  const path = pathUtil.join(outputDirectory, 'addons.json');
-  fs.writeFileSync(path, JSON.stringify(result, null, 4));
+  writeToOutFile('addons.json', translations);
 };
 
 const processDesktop = (translations) => {
-  const result = {};
-  for (const language of Object.keys(translations)) {
-    const scratchLanguage = language.toLowerCase().replace(/_/g, '-');
-    result[scratchLanguage] = translations[language];
-  }
-  const path = pathUtil.join(outputDirectory, 'desktop.json');
-  fs.writeFileSync(path, JSON.stringify(result, null, 4));
+  writeToOutFile('desktop.json', translations);
 };
 
 const processDesktopWeb = (translations) => {
-  const result = {};
-  for (const language of Object.keys(translations)) {
-    const scratchLanguage = language.toLowerCase().replace(/_/g, '-');
-    result[scratchLanguage] = translations[language];
-  }
-  const path = pathUtil.join(outputDirectory, 'desktop-web.json');
-  fs.writeFileSync(path, JSON.stringify(result, null, 4));
+  writeToOutFile('desktop-web.json', translations);
 };
 
 (async () => {
