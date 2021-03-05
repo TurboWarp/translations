@@ -3,10 +3,10 @@
 	"tasks": [
 		{
 			"type": "npm",
-			"script": "download-and-copy",
+			"script": "download",
 			"problemMatcher": [],
 			"label": "download and copy translations",
-			"detail": "npm run download-and-copy"
+			"detail": "npm run download"
 		}
 	]
 }

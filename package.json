@@ -5,8 +5,6 @@
   "main": "index.js",
   "scripts": {
     "download": "node scripts/download-from-transifex.js",
-    "copy-into": "node scripts/copy-into.js",
-    "download-and-copy": "npm run download && npm run copy-into",
     "upload": "node scripts/upload-to-transifex.js"
   },
   "repository": {
