@@ -84,7 +84,7 @@ const processSplash = (translations) => {
   if (fs.existsSync(scratchGuiPath)) {
     const indexejs = pathUtil.join(scratchGuiPath, 'src/playground/index.ejs');
     const oldContent = fs.readFileSync(indexejs, 'utf-8');
-    const newContent = oldContent.replace(/\/\*===\*\/[\s\S]+\/\*===\*\//m, `/*===*/'${JSON.stringify(result).replace(/'/g, '\\\'')}'/*===*/`);
+    const newContent = oldContent.replace(/\/\*===\*\/[\s\S]+\/\*===\*\//m, `/*===*/${JSON.stringify(result)}/*===*/`);
     if (newContent !== oldContent) {
       console.log('Updating splash.json');
       fs.writeFileSync(indexejs, newContent);
@@ -119,12 +119,12 @@ const processDesktop = (translations) => {
 const processDesktopWeb = (translations) => {
   writeToOutFile('desktop-web.json', translations);
   if (fs.existsSync(desktopPath)) {
-    const l10njs = pathUtil.join(desktopPath, 'docs/l10n.js');
-    const oldContent = fs.readFileSync(l10njs, 'utf-8');
+    const index = pathUtil.join(desktopPath, 'docs/index.html');
+    const oldContent = fs.readFileSync(index, 'utf-8');
     const newContent = oldContent.replace(/\/\*===\*\/[\s\S]+\/\*===\*\//m, `/*===*/${JSON.stringify(translations)}/*===*/`);
     if (newContent !== oldContent) {
       console.log('Updating desktop-web.json');
-      fs.writeFileSync(l10njs, newContent);
+      fs.writeFileSync(index, newContent);
     }
   }
 };
