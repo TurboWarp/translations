@@ -1,7 +1,6 @@
 const Limiter = require('async-limiter');
 const fs = require('fs');
 const pathUtil = require('path');
-const {outputDirectory} = require('./common');
 const {
   getTranslation,
   getResourceLanguages
@@ -11,6 +10,9 @@ const SOURCE_LANGUAGE = 'en';
 
 const scratchGuiPath = pathUtil.resolve(__dirname, '../../scratch-gui');
 const desktopPath = pathUtil.resolve(__dirname, '../../turbowarp-desktop');
+
+const outputDirectory = pathUtil.join(__dirname, '../out');
+if (!fs.existsSync(outputDirectory)) fs.mkdirSync(outputDirectory);
 
 const limiterDone = (limiter) => new Promise((resolve, reject) => {
   limiter.onDone(() => {

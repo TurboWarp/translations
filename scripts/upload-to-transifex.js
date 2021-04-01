@@ -1,7 +1,9 @@
 const fs = require('fs');
 const pathUtil = require('path');
-const {inputDirectory} = require('./common');
 const {uploadResource} = require('./transifex');
+
+const inputDirectory = pathUtil.join(__dirname, '../in');
+if (!fs.existsSync(inputDirectory)) fs.mkdirSync(inputDirectory);
 
 const getAllFiles = (directory) => {
   const children = fs.readdirSync(directory);
