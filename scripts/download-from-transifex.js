@@ -67,33 +67,6 @@ const writeToOutFile = (file, json) => {
   fs.writeFileSync(path, JSON.stringify(json, null, 4));
 };
 
-const processSplash = (translations) => {
-  const result = {};
-  for (const language of Object.keys(translations)) {
-    const messages = translations[language];
-    const title = messages['splash.title'];
-    const subtitle = messages['splash.subtitle'];
-    const troubleshooting = messages['splash.troubleshooting'];
-    if (title && subtitle && troubleshooting) {
-      result[language] = [
-        title,
-        subtitle,
-        troubleshooting
-      ];
-    }
-  }
-  writeToOutFile('splash.json', result);
-  if (fs.existsSync(scratchGuiPath)) {
-    const indexejs = pathUtil.join(scratchGuiPath, 'src/playground/index.ejs');
-    const oldContent = fs.readFileSync(indexejs, 'utf-8');
-    const newContent = oldContent.replace(/\/\*===\*\/[\s\S]+\/\*===\*\//m, `/*===*/${JSON.stringify(result)}/*===*/`);
-    if (newContent !== oldContent) {
-      console.log('Updating splash.json');
-      fs.writeFileSync(indexejs, newContent);
-    }
-  }
-};
-
 const processGUI = (translations) => {
   writeToOutFile('gui.json', translations);
   if (fs.existsSync(scratchGuiPath)) {
@@ -134,20 +107,17 @@ const processDesktopWeb = (translations) => {
 (async () => {
   const [
     guiMessages,
-    splashMessages,
     addonMessages,
     desktopMessages,
     desktopWebMessages
   ] = await Promise.all([
     downloadAllLanguages('guijson'),
-    downloadAllLanguages('splashjson'),
     downloadAllLanguages('addonsjson'),
     downloadAllLanguages('desktopjson'),
     downloadAllLanguages('desktop-webjson')
   ]);
 
   processGUI(guiMessages);
-  processSplash(splashMessages);
   processAddons(addonMessages);
   processDesktop(desktopMessages);
   processDesktopWeb(desktopWebMessages);
