@@ -31,3 +31,5 @@ Find your language on https://www.transifex.com/turbowarp/turbowarp/dashboard/ a
 Read https://docs.transifex.com/translation/translating-with-the-web-editor to learn how to use the Transifex translator. It's a lot simpler than it looks.
 
 Translations will be occasionally pulled from Transifex. You don't have to do anything additional, it just might take a few days.
+
+The most important resource to translate is `gui.json`. You should start with this one.
