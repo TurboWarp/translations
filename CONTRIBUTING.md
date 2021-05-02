@@ -6,26 +6,22 @@ Create a new discussion if you have questions following this guide: https://gith
 
 ### Requirements
 
- - You must have a GitHub account. Note that the GitHub ToS says you must be 13 years old.
- - You must be fluent in both English and another language (or even multiple languages).
- - No Google Translate or other machine translation services. We want translations written by humans, not machines.
- - Each language must already be [part of Scratch](https://github.com/TurboWarp/translations/blob/master/languages.md#readme).
- - The initial translation for new languages should take under an hour. Please check occasionally (once a week is enough) to translate any newly added strings. This isn't expected to be a large time commitment. Don't lose sleep over this. We're all unpaid volunteers.
+ - You must be fluent in both English and another language.
+ - We want translations written by humans, not by machines.
+ - Each language must already be part of Scratch.
+ - The initial translation for new languages should take under an hour. Please check occasionally to translate any newly added strings. This isn't expected to be a large time commitment. Don't lose sleep over this. We're all unpaid volunteers.
 
 ### Request to join
+ 
+ - Go to [our Transifex page](https://www.transifex.com/turbowarp/turbowarp/), and click on the blue "Help Translate TurboWarp" button.
+ - You'll probably have to create a Transifex account. Use the same username as your Scratch account. Enter your email, a new password, then Sign Up.
+ - When asked for your name, enter your username as your name and surname to protect your privacy. For "department" and "job title", select "localization" and "individual contributor".
+ - On then next step, select "join an existing project".
+ - Choose the language(s) you want to help with.
 
- - Make a [Transifex](https://www.transifex.com/signup/) account. You can use your GitHub account if you'd like.
-   - You must make your account public. Don't enter your real name if you don't want it to be public.
-   - When it asks about department, you can use "Localization" and "Individual contributor"
-   - Choose "Join an existing project"
-   - **Do not send a request to join through Transifex -- they will be rejected.** Follow the steps below.
- - Create an issue using this template: https://github.com/TurboWarp/translations/issues/new?labels=request+to+join&template=join-translation-team.md
- - It may take a few days for requests to be reviewed.
- - Wait for request to be accepted before continuing.
+The request will be accepted within a few days.
 
 ### Writing translations
-
-When your request is accepted, you will get an invitation from Transifex to join the translation team. Accept it. You're now ready to start translating.
 
 Find your language on https://www.transifex.com/turbowarp/turbowarp/dashboard/ and click the Translate button.
 
